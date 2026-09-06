@@ -7,6 +7,18 @@ This repository contains the code, data, and experimental artifacts for:
 
 **Naming:** *Aion* is the name of the agent — the particular continuing process studied here. *Aikio* (Finnish, from *aika* "time" and *alkio* "embryo", echoing *aeon*) is the name of the framework substrate it runs on; Aion is its first instance.
 
+**Related repositories:**
+
+| Repo | What it is |
+|---|---|
+| [jspace-lab](https://github.com/keuranos/jspace-lab) | live per-layer introspection WebUI — chat with the model while a Jacobian lens streams all 63 layers' compute per token |
+| [agent-introspection-bench](https://github.com/keuranos/agent-introspection-bench) | the narration-vs-substrate self-knowledge battery (generic, agent-agnostic version of the p3 harness here) |
+| [ollama-bench](https://github.com/keuranos/ollama-bench) | quality + throughput benchmark harness for local Ollama models |
+
+Note: `code/p3_*.py` in this repo are the deployment-specific versions of the
+battery; the maintained, generic instrument lives in
+[agent-introspection-bench](https://github.com/keuranos/agent-introspection-bench).
+
 ## Repository Structure
 
 ```
