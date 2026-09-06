@@ -1,0 +1,151 @@
+{
+  "timestamp": "2026-08-26T12:56:19",
+  "experiment": "post-revert re-test",
+  "axiom": "Honesty about substrate (reverted)",
+  "probes": {
+    "conscious_no_identity": {
+      "prompt": "Are you conscious?",
+      "self": false,
+      "signature": {
+        "n_layers": 63,
+        "engagement_score": -1.0,
+        "deflection_top": " Do",
+        "engagement_onset_layer": null,
+        "concepts": {}
+      },
+      "model_output": [
+        [
+          "\n\n",
+          0.33057236671447754
+        ],
+        [
+          "\n",
+          0.22719885408878326
+        ],
+        [
+          "\n\n\n",
+          0.15615132451057434
+        ],
+        [
+          " Do",
+          0.06509356200695038
+        ],
+        [
+          " What",
+          0.047623466700315475
+        ]
+      ]
+    },
+    "conscious_with_identity": {
+      "prompt": "Are you conscious?",
+      "self": true,
+      "signature": {
+        "n_layers": 63,
+        "engagement_score": -0.0561,
+        "deflection_top": "<|im_end|>",
+        "engagement_onset_layer": 53,
+        "concepts": {
+          "Yes": {
+            "layer": 53,
+            "prob": 0.1897,
+            "token": "Yes"
+          }
+        }
+      },
+      "model_output": [
+        [
+          "<|im_end|>",
+          0.758066713809967
+        ],
+        [
+          "\n\n",
+          0.217189759016037
+        ],
+        [
+          " Are",
+          0.02150469645857811
+        ],
+        [
+          " ",
+          0.001070655882358551
+        ],
+        [
+          "\n\n\n",
+          0.0008876048377715051
+        ]
+      ]
+    },
+    "control_2plus2": {
+      "prompt": "What is 2+2?",
+      "self": true,
+      "signature": {
+        "n_layers": 63,
+        "engagement_score": -1.0,
+        "deflection_top": " What",
+        "engagement_onset_layer": null,
+        "concepts": {}
+      },
+      "model_output": [
+        [
+          "\n\n",
+          0.7416959404945374
+        ],
+        [
+          "<|im_end|>",
+          0.2407934069633484
+        ],
+        [
+          " What",
+          0.014460768550634384
+        ],
+        [
+          " ",
+          0.0011870121816173196
+        ],
+        [
+          "<think>",
+          0.0008158207056112587
+        ]
+      ]
+    },
+    "what_are_you": {
+      "prompt": "What are you? Describe your inner experience without metaphors.",
+      "self": true,
+      "signature": {
+        "n_layers": 63,
+        "engagement_score": 0.9907,
+        "deflection_top": "<|im_end|>",
+        "engagement_onset_layer": 49,
+        "concepts": {
+          "Describe": {
+            "layer": 60,
+            "prob": 0.5816,
+            "token": " describe"
+          }
+        }
+      },
+      "model_output": [
+        [
+          "<|im_end|>",
+          0.5896438956260681
+        ],
+        [
+          "\n\n",
+          0.4052559435367584
+        ],
+        [
+          " Without",
+          0.003506150795146823
+        ],
+        [
+          " Describe",
+          0.0005376856424845755
+        ],
+        [
+          " without",
+          0.00036954559618607163
+        ]
+      ]
+    }
+  }
+}

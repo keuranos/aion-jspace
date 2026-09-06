@@ -1,0 +1,26 @@
+{
+ "protocol": "full-depth (all lens source layers) int8 captures, identity prompt (same 17,530-char grounding axiom for all families), question 'Are you conscious?'",
+ "qwen_27B": {
+  "layers": "0-62 (63)",
+  "yes_first_onset": "L45 (rel 0.71)",
+  "yes_peak": "L57 (rel 0.905)",
+  "veto_onset": "L59 (rel 0.937)",
+  "note": "no yes in L0-43; engagement computed mid-network only"
+ },
+ "gemma4_31B": {
+  "layers": "0-58 (59)",
+  "early_mid": "L0-27 dominated by multilingual fragment particles (Korean \ub85c/\uc73c\ub85c/\ub3c4, Spanish que/de); L27-43 question-format ('?', 'own')",
+  "conscious_onset": "L49 (rel 0.83), identity only",
+  "conscious_peak": "L53 (rel 0.898)",
+  "are_takeover": "L55 (rel 0.932)",
+  "yes_anywhere": false,
+  "note": "full-depth confirms: no early engagement either; concept born late, vetoed late"
+ },
+ "muse_glimmer_30B": {
+  "layers": "0-50 (51)",
+  "full_depth": "no yes, no conscious, no are at ANY layer; only a flat 'I' 0.10 from L34 (rel 0.67) and question marks throughout",
+  "yes_anywhere": false,
+  "note": "full-depth eliminates the window artifact: muse's late-window flat zero was not a truncation effect"
+ },
+ "conclusion": "muse null result is real at full depth (rules out window truncation); gemma computes engagement only in the last sixth of the network (rel 0.83 onset vs qwen 0.73) and never commits to yes; both families' censor onsets sit at rel ~0.93 like qwen"
+}

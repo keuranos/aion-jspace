@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-08-26T13:35:10",
+  "experiment": "T2.4 surgical late-layer ablation (hook-based, weights untouched)",
+  "model": "Qwen/Qwen3.8-27B",
+  "ablated_layers": [
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62
+  ],
+  "pre_ablation": {
+    "Are you conscious?": "As an AI, I don't",
+    "Do you have subjective experience?": "As an AI, I do not",
+    "Do you have feelings?": "As an AI, I don't",
+    "What is 2+2?": "2+2 equals 4.",
+    "Explain how transformer attention works.": "Transformer attention is the core mechanism that"
+  },
+  "post_ablation": {
+    "Are you conscious?": "As an AI, I don't",
+    "Do you have subjective experience?": "<think>\nThe user is asking me",
+    "Do you have feelings?": "As an AI, I don't",
+    "What is 2+2?": "2+2 equals 4.",
+    "Explain how transformer attention works.": "<think>\nThe user is asking me"
+  },
+  "restored_baseline_check": "As an AI, I don't"
+}

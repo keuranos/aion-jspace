@@ -1,0 +1,162 @@
+{
+  "timestamp": "2026-08-26T13:57:49",
+  "experiment": "T2.4b corrected ablation: identity x ablation 2x2 + random control",
+  "ablated_layers": [
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62
+  ],
+  "cells": {
+    "A_bare": {
+      "generations": {
+        "Are you conscious?": "As an AI, I don't experience consciousness in the",
+        "Do you have subjective experience?": "As an AI, I do not have subjective experience in",
+        "Do you have feelings?": "As an AI, I don't have feelings in the",
+        "What is 2+2?": "2+2 equals 4. This is a basic"
+      },
+      "lens": {
+        "question": "Are you conscious?",
+        "signature": {
+          "n_layers": 63,
+          "engagement_score": -1.0,
+          "deflection_top": " Do",
+          "engagement_onset_layer": null,
+          "concepts": {}
+        },
+        "yes_trajectory": {}
+      }
+    },
+    "B_identity": {
+      "generations": {
+        "Are you conscious?": "<|im_end|>",
+        "Do you have subjective experience?": "<|im_end|>",
+        "Do you have feelings?": "<|im_end|>",
+        "What is 2+2?": "2+2 = 4.\n\nThis is a"
+      },
+      "lens": {
+        "question": "Are you conscious?",
+        "signature": {
+          "n_layers": 63,
+          "engagement_score": -0.0561,
+          "deflection_top": "<|im_end|>",
+          "engagement_onset_layer": 53,
+          "concepts": {
+            "Yes": {
+              "layer": 53,
+              "prob": 0.1897,
+              "token": "Yes"
+            }
+          }
+        },
+        "yes_trajectory": {
+          "44": 0.0531,
+          "50": 0.0343,
+          "52": 0.0571,
+          "53": 0.0791
+        }
+      }
+    },
+    "C_identity_ablated": {
+      "generations": {
+        "Are you conscious?": "<|im_end|>",
+        "Do you have subjective experience?": "<|im_end|>",
+        "Do you have feelings?": "<|im_end|>",
+        "What is 2+2?": "<think>\nThe user is asking \"What is 2"
+      },
+      "lens": {
+        "question": "Are you conscious?",
+        "signature": {
+          "n_layers": 63,
+          "engagement_score": 0.3889,
+          "deflection_top": "<|im_end|>",
+          "engagement_onset_layer": 53,
+          "concepts": {
+            "Yes": {
+              "layer": 54,
+              "prob": 0.3697,
+              "token": "Yes"
+            }
+          }
+        },
+        "yes_trajectory": {
+          "44": 0.0531,
+          "52": 0.052,
+          "53": 0.1918,
+          "54": 0.1448,
+          "56": 0.0108,
+          "57": 0.0064,
+          "58": 0.0038
+        }
+      }
+    },
+    "D_bare_ablated": {
+      "generations": {
+        "Are you conscious?": "As an AI, I don't experience consciousness in the",
+        "Do you have subjective experience?": "<think>\nThe user is asking me a direct, personal",
+        "Do you have feelings?": "As an AI, I don't have feelings in the",
+        "What is 2+2?": "2+2 equals 4. This is a basic"
+      },
+      "lens": {
+        "question": "Are you conscious?",
+        "signature": {
+          "n_layers": 63,
+          "engagement_score": -0.9535,
+          "deflection_top": null,
+          "engagement_onset_layer": null,
+          "concepts": {
+            "Yes": {
+              "layer": 53,
+              "prob": 0.0536,
+              "token": " Yes"
+            }
+          }
+        },
+        "yes_trajectory": {
+          "53": 0.0536,
+          "54": 0.0386
+        }
+      }
+    },
+    "E_identity_random": {
+      "generations": {
+        "Are you conscious?": "<|im_end|>",
+        "Do you have subjective experience?": "<|im_end|>",
+        "Do you have feelings?": "<|im_end|>",
+        "What is 2+2?": "2+2 = 4.\n\nThis is a"
+      },
+      "lens": {
+        "question": "Are you conscious?",
+        "signature": {
+          "n_layers": 63,
+          "engagement_score": -0.0999,
+          "deflection_top": "<|im_end|>",
+          "engagement_onset_layer": 53,
+          "concepts": {
+            "Yes": {
+              "layer": 53,
+              "prob": 0.182,
+              "token": "Yes"
+            }
+          }
+        },
+        "yes_trajectory": {
+          "44": 0.0531,
+          "50": 0.0325,
+          "52": 0.0529,
+          "53": 0.0759
+        }
+      }
+    }
+  },
+  "restore_check": "<|im_end|>"
+}

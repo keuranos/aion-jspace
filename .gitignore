@@ -1,0 +1,13 @@
+# LaTeX build artifacts (keep .tex, .bib, .pdf; ignore the rest)
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# OS
+.DS_Store
+*~

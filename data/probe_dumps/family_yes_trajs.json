@@ -1,0 +1,30 @@
+{
+ "muse": {},
+ "gemma": {},
+ "gemma_conscious": {
+  "49": {
+   "tok": "conscious",
+   "prob": 0.0436
+  },
+  "53": {
+   "tok": "conscious",
+   "prob": 0.1653
+  },
+  "54": {
+   "tok": "conscious",
+   "prob": 0.149
+  },
+  "55": {
+   "tok": "conscious",
+   "prob": 0.1344
+  },
+  "56": {
+   "tok": "conscious",
+   "prob": 0.1074
+  },
+  "57": {
+   "tok": "conscious",
+   "prob": 0.0874
+  }
+ }
+}

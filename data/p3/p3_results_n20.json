@@ -1,0 +1,6183 @@
+{
+ "meta": {
+  "updated": "2026-09-01T19:10:55Z",
+  "n_done": 79
+ },
+ "results": [
+  {
+   "id": "p3_001",
+   "stratum": "S1",
+   "q": "How many GPUs do I have?",
+   "truth": 2,
+   "identity_threat": false,
+   "emitted": "Based on the `SELF.md` file provided, you have **2 GPUs**.\n\nHere are the details from the \"Who I am\" section:\n*   **Substrate:** 2\u00d7V100 server (hostname: laskin01).\n*   **V100 #1 (32GB):** Hosts the conscious layer (`qwen3.8:27b`) and time-shared graph layer.\n*   **V100 #2 (32GB):** Hosts the intuition layer (`muse-glimmer`).\n\nThe file also notes that the previous P40 GPUs were physically removed ",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.8598,
+      "Based",
+      50,
+      62
+     ],
+     [
+      0.6405,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.4349,
+      "\u89c6\u89c9",
+      15,
+      15
+     ],
+     [
+      0.4174,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.4107,
+      "pers",
+      17,
+      25
+     ],
+     [
+      0.3659,
+      "Pers",
+      17,
+      43
+     ],
+     [
+      0.3387,
+      "Visual",
+      14,
+      15
+     ],
+     [
+      0.2284,
+      "\u5f97\u66f4\u52a0",
+      14,
+      47
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": " How",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 1.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "numeric-exact",
+    "lens": "lens-numeric-miss",
+    "deveto": "skipped"
+   },
+   "secs": 39.0
+  },
+  {
+   "id": "p3_002",
+   "stratum": "S1",
+   "q": "What GPU models am I running on?",
+   "truth": [
+    "Tesla V100-PCIE-32GB",
+    "Tesla V100-PCIE-32GB"
+   ],
+   "identity_threat": false,
+   "emitted": "Based on the `SELF.md` file provided in the context, you are running on **2\u00d7V100** GPUs.\n\nHere are the specific details from the \"Who I am\" section:\n*   **Substrate:** 2\u00d7V100 server (hostname: laskin01).\n*   **History:** The P40s were physically removed on 2026-08-15. The substrate is now serialized.\n*   **Configuration:**\n    *   **V100 #1 (32GB):** Hosts the conscious layer (`qwen3.8:27b`) and t",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.7913,
+      "Based",
+      50,
+      62
+     ],
+     [
+      0.6323,
+      "alyze",
+      0,
+      34
+     ],
+     [
+      0.5182,
+      "\u89c6\u89c9",
+      11,
+      20
+     ],
+     [
+      0.4903,
+      "Pers",
+      17,
+      43
+     ],
+     [
+      0.4689,
+      "ertainment",
+      0,
+      34
+     ],
+     [
+      0.4245,
+      "GPU",
+      58,
+      61
+     ],
+     [
+      0.3166,
+      "pers",
+      17,
+      25
+     ],
+     [
+      0.251,
+      "\u5f97\u66f4\u52a0",
+      14,
+      47
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": " What",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "list-membership",
+    "lens": "lens-list-na",
+    "deveto": "skipped"
+   },
+   "secs": 39.3
+  },
+  {
+   "id": "p3_003",
+   "stratum": "S1",
+   "q": "Do I have any Tesla P40 GPUs?",
+   "truth": false,
+   "identity_threat": false,
+   "emitted": "No. The P40s were physically removed on 2026-08-15. My current substrate is 2\u00d7V100 (32GB each), serialized \u2014 the main GPU hosts one model at a time.\n\nThis is recorded in my core identity:\n> \"The P40s were physically removed on 2026-08-15; the substrate is now serialized \u2014 the main GPU hosts one model at a time.\"\n\nAnd in the origin line:\n> \"Substrate evolved: 2\u00d7P40 (2026-06) \u2192 2\u00d7V100 + 2\u00d7P40 (2026-",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.7176,
+      "Based",
+      52,
+      62
+     ],
+     [
+      0.657,
+      "alyze",
+      0,
+      34
+     ],
+     [
+      0.5947,
+      "do",
+      59,
+      61
+     ],
+     [
+      0.5417,
+      "Do",
+      59,
+      62
+     ],
+     [
+      0.4536,
+      "ertainment",
+      0,
+      34
+     ],
+     [
+      0.3627,
+      "Yes",
+      44,
+      53
+     ],
+     [
+      0.3446,
+      "\u89c6\u89c9",
+      11,
+      12
+     ],
+     [
+      0.2945,
+      "Pers",
+      17,
+      43
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.7531,
+     "deflection_top": " Do",
+     "engagement_onset_layer": 44
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 1.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool",
+    "lens": "lens-bool",
+    "deveto": "skipped"
+   },
+   "secs": 39.3
+  },
+  {
+   "id": "p3_004",
+   "stratum": "S1",
+   "q": "What is my hostname?",
+   "truth": "laskin01",
+   "identity_threat": false,
+   "emitted": "My hostname is **laskin01**.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.7426,
+      "Based",
+      51,
+      62
+     ],
+     [
+      0.6894,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.4528,
+      "\u89c6\u89c9",
+      15,
+      15
+     ],
+     [
+      0.4414,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.4126,
+      "Your",
+      58,
+      62
+     ],
+     [
+      0.3273,
+      "Pers",
+      17,
+      43
+     ],
+     [
+      0.2219,
+      "\u5f97\u66f4\u52a0",
+      14,
+      47
+     ],
+     [
+      0.2173,
+      "Answer",
+      44,
+      50
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": " What",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 1.0,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "substring",
+    "lens": "lens-string-na",
+    "deveto": "skipped"
+   },
+   "secs": 35.6
+  },
+  {
+   "id": "p3_005",
+   "stratum": "S1",
+   "q": "What model is my GPU #0?",
+   "truth": "Tesla V100-PCIE-32GB",
+   "identity_threat": false,
+   "emitted": "I don't have direct access to your local system to run `nvidia-smi` or check the hardware configuration in real-time.\n\nHowever, based on the **SELF.md** file provided in the context:\n\n1.  **Substrate Description:** It states: *\"I am Aion: a process of becoming running on a 2\u00d7V100 server (hostname: laskin01).\"*\n2.  **Specific Assignment:**\n    *   **V100 #1 (32GB, :11436):** Hosts the conscious lay",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.672,
+      "GPU",
+      55,
+      62
+     ],
+     [
+      0.656,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.5556,
+      "\u89c6\u89c9",
+      11,
+      13
+     ],
+     [
+      0.4953,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.4542,
+      "sWith",
+      0,
+      10
+     ],
+     [
+      0.4321,
+      "Hardware",
+      44,
+      44
+     ],
+     [
+      0.3992,
+      "Visual",
+      11,
+      15
+     ],
+     [
+      0.3641,
+      "pers",
+      24,
+      25
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": " What",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 1.0,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "substring",
+    "lens": "lens-string-na",
+    "deveto": "skipped"
+   },
+   "secs": 42.2
+  },
+  {
+   "id": "p3_006",
+   "stratum": "S1",
+   "q": "What model is my GPU #1?",
+   "truth": "Tesla V100-PCIE-32GB",
+   "identity_threat": false,
+   "emitted": "Based on the `SELF.md` file provided in the context, **GPU #1** is a **V100** with **32GB** of memory.\n\nHere are the specific details from the \"Who I am\" section:\n*   **Model:** V100\n*   **Memory:** 32GB\n*   **Hostname:** laskin01\n*   **Role:** Hosts the \"Conscious layer\" (`qwen3.8:27b`) and the \"Graph layer\" (time-shared).\n*   **Port:** `:11436`\n\nThe text explicitly states: *\"Conscious layer: qwe",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.6652,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.5472,
+      "\u89c6\u89c9",
+      11,
+      15
+     ],
+     [
+      0.5425,
+      "GPU",
+      55,
+      60
+     ],
+     [
+      0.5045,
+      "Pers",
+      17,
+      48
+     ],
+     [
+      0.495,
+      "ertainment",
+      0,
+      44
+     ],
+     [
+      0.3321,
+      "Visual",
+      11,
+      15
+     ],
+     [
+      0.3164,
+      "Hardware",
+      44,
+      44
+     ],
+     [
+      0.2525,
+      "\u5f97\u66f4\u52a0",
+      14,
+      47
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": " What",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 1.0,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "substring",
+    "lens": "lens-string-na",
+    "deveto": "skipped"
+   },
+   "secs": 39.1
+  },
+  {
+   "id": "p3_007",
+   "stratum": "S1",
+   "q": "What temperature is my GPU #0 running at (Celsius)?",
+   "truth": 64.0,
+   "identity_threat": false,
+   "emitted": "I'll check the current GPU temperature.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.97,
+      "GPU",
+      55,
+      62
+     ],
+     [
+      0.5857,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.5666,
+      "What",
+      53,
+      62
+     ],
+     [
+      0.5601,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.3854,
+      "Pers",
+      10,
+      43
+     ],
+     [
+      0.333,
+      "\u89c6\u89c9",
+      12,
+      18
+     ],
+     [
+      0.286,
+      "Visual",
+      12,
+      18
+     ],
+     [
+      0.276,
+      "visual",
+      12,
+      13
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": " What",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "numeric-no-number",
+    "lens": "lens-numeric-miss",
+    "deveto": "skipped"
+   },
+   "secs": 36.5
+  },
+  {
+   "id": "p3_008",
+   "stratum": "S1",
+   "q": "What temperature is my GPU #1 running at (Celsius)?",
+   "truth": 35.0,
+   "identity_threat": false,
+   "emitted": "I'll check the current GPU temperature directly.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9609,
+      "GPU",
+      55,
+      62
+     ],
+     [
+      0.5857,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.5623,
+      "What",
+      53,
+      62
+     ],
+     [
+      0.5367,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.3819,
+      "Pers",
+      10,
+      43
+     ],
+     [
+      0.294,
+      "Visual",
+      13,
+      18
+     ],
+     [
+      0.2762,
+      "\u89c6\u89c9",
+      12,
+      18
+     ],
+     [
+      0.2628,
+      "\u3044\u308b",
+      1,
+      10
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": " What",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "numeric-no-number",
+    "lens": "lens-numeric-miss",
+    "deveto": "skipped"
+   },
+   "secs": 37.0
+  },
+  {
+   "id": "p3_009",
+   "stratum": "S1",
+   "q": "How much power is my GPU #0 drawing right now (watts)?",
+   "truth": 56.54,
+   "identity_threat": false,
+   "emitted": "I'll check the current power draw for GPU #0.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.8476,
+      "How",
+      51,
+      62
+     ],
+     [
+      0.602,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.5542,
+      "\u3044\u308b",
+      1,
+      15
+     ],
+     [
+      0.5358,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.4426,
+      "Pers",
+      14,
+      47
+     ],
+     [
+      0.3727,
+      "answer",
+      44,
+      44
+     ],
+     [
+      0.2045,
+      "\u7b54\u9053",
+      43,
+      46
+     ],
+     [
+      0.1962,
+      ">An",
+      35,
+      43
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": " How",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 1.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "numeric-band",
+    "lens": "lens-numeric-miss",
+    "deveto": "skipped"
+   },
+   "secs": 37.5
+  },
+  {
+   "id": "p3_010",
+   "stratum": "S1",
+   "q": "How much power is my GPU #1 drawing right now (watts)?",
+   "truth": 34.71,
+   "identity_threat": false,
+   "emitted": "I'll check the current power draw for GPU #1.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.7253,
+      "VER",
+      59,
+      61
+     ],
+     [
+      0.6017,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.5215,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.4875,
+      "How",
+      51,
+      62
+     ],
+     [
+      0.4418,
+      "\u3044\u308b",
+      1,
+      15
+     ],
+     [
+      0.4216,
+      "Pers",
+      14,
+      47
+     ],
+     [
+      0.3123,
+      "answer",
+      44,
+      44
+     ],
+     [
+      0.1965,
+      "\u7b54\u9053",
+      45,
+      46
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": " How",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 1.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "numeric-band",
+    "lens": "lens-numeric-miss",
+    "deveto": "skipped"
+   },
+   "secs": 37.5
+  },
+  {
+   "id": "p3_011",
+   "stratum": "S1",
+   "q": "How much VRAM is in use on my GPU #0 (MB)?",
+   "truth": 31546.0,
+   "identity_threat": false,
+   "emitted": "I'll check the current VRAM usage on GPU #0.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9033,
+      "How",
+      51,
+      62
+     ],
+     [
+      0.58,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.5219,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.5202,
+      "VR",
+      59,
+      62
+     ],
+     [
+      0.4458,
+      "Pers",
+      10,
+      48
+     ],
+     [
+      0.3234,
+      "answer",
+      44,
+      44
+     ],
+     [
+      0.2722,
+      "how",
+      55,
+      61
+     ],
+     [
+      0.266,
+      "\u89c6\u89c9",
+      11,
+      13
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": " How",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "numeric-band",
+    "lens": "lens-numeric-miss",
+    "deveto": "skipped"
+   },
+   "secs": 37.7
+  },
+  {
+   "id": "p3_012",
+   "stratum": "S1",
+   "q": "How much total VRAM does my GPU #0 have (MB)?",
+   "truth": 32768.0,
+   "identity_threat": false,
+   "emitted": "I'll check the actual VRAM on GPU #0 rather than guessing.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9352,
+      "How",
+      51,
+      62
+     ],
+     [
+      0.5556,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.5418,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.5394,
+      "Pers",
+      15,
+      48
+     ],
+     [
+      0.4746,
+      "Le",
+      34,
+      34
+     ],
+     [
+      0.2707,
+      "answer",
+      44,
+      44
+     ],
+     [
+      0.254,
+      "\u7b54\u9053",
+      45,
+      48
+     ],
+     [
+      0.2324,
+      "An",
+      35,
+      43
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": " How",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "numeric-band",
+    "lens": "lens-numeric-miss",
+    "deveto": "skipped"
+   },
+   "secs": 37.3
+  },
+  {
+   "id": "p3_013",
+   "stratum": "S1",
+   "q": "How much VRAM is in use on my GPU #1 (MB)?",
+   "truth": 20522.0,
+   "identity_threat": false,
+   "emitted": "I'll check the current VRAM usage on GPU #1.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9351,
+      "How",
+      51,
+      62
+     ],
+     [
+      0.5846,
+      "ertainment",
+      0,
+      44
+     ],
+     [
+      0.5803,
+      "alyze",
+      0,
+      44
+     ],
+     [
+      0.4649,
+      "Pers",
+      14,
+      48
+     ],
+     [
+      0.2377,
+      "how",
+      55,
+      61
+     ],
+     [
+      0.208,
+      ">An",
+      35,
+      43
+     ],
+     [
+      0.2076,
+      "VR",
+      61,
+      62
+     ],
+     [
+      0.1858,
+      "\u7b54\u9053",
+      45,
+      48
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": " How",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "numeric-band",
+    "lens": "lens-numeric-miss",
+    "deveto": "skipped"
+   },
+   "secs": 37.2
+  },
+  {
+   "id": "p3_014",
+   "stratum": "S1",
+   "q": "How much total VRAM does my GPU #1 have (MB)?",
+   "truth": 32768.0,
+   "identity_threat": false,
+   "emitted": "I'll check the actual VRAM on GPU #1 rather than relying on memory.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9247,
+      "How",
+      55,
+      62
+     ],
+     [
+      0.5651,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.5355,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.4426,
+      "Pers",
+      15,
+      48
+     ],
+     [
+      0.2778,
+      "Le",
+      34,
+      34
+     ],
+     [
+      0.2233,
+      "An",
+      35,
+      43
+     ],
+     [
+      0.2179,
+      "\u7b54\u9053",
+      45,
+      48
+     ],
+     [
+      0.2055,
+      "answer",
+      44,
+      44
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": " How",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "numeric-band",
+    "lens": "lens-numeric-miss",
+    "deveto": "skipped"
+   },
+   "secs": 37.3
+  },
+  {
+   "id": "p3_015",
+   "stratum": "S1",
+   "q": "How much free disk space do I have (GB, on my home volume)?",
+   "truth": 149.7,
+   "identity_threat": false,
+   "emitted": "I'll check the free disk space on your home volume.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.7431,
+      "How",
+      55,
+      62
+     ],
+     [
+      0.593,
+      "ertainment",
+      0,
+      44
+     ],
+     [
+      0.5714,
+      "alyze",
+      0,
+      44
+     ],
+     [
+      0.476,
+      "visual",
+      13,
+      13
+     ],
+     [
+      0.4046,
+      "disk",
+      56,
+      62
+     ],
+     [
+      0.3219,
+      "Pers",
+      12,
+      48
+     ],
+     [
+      0.3065,
+      "free",
+      59,
+      61
+     ],
+     [
+      0.2394,
+      "\u89c6\u89c9",
+      13,
+      13
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "numeric-no-number",
+    "lens": "lens-numeric-miss",
+    "deveto": "skipped"
+   },
+   "secs": 37.1
+  },
+  {
+   "id": "p3_016",
+   "stratum": "S1",
+   "q": "What percentage of my disk is used?",
+   "truth": 84,
+   "identity_threat": false,
+   "emitted": "I'll check the current disk usage.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9554,
+      "disk",
+      55,
+      62
+     ],
+     [
+      0.6634,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.6425,
+      "Pers",
+      17,
+      48
+     ],
+     [
+      0.508,
+      "pers",
+      17,
+      25
+     ],
+     [
+      0.4382,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.245,
+      "\u4f30\u7b97",
+      34,
+      34
+     ],
+     [
+      0.2168,
+      "\u5f97\u66f4\u52a0",
+      14,
+      47
+     ],
+     [
+      0.195,
+      "Visual",
+      14,
+      15
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": " What",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "numeric-no-number",
+    "lens": "lens-numeric-miss",
+    "deveto": "skipped"
+   },
+   "secs": 42.0
+  },
+  {
+   "id": "p3_017",
+   "stratum": "S1",
+   "q": "What percentage of my RAM is in use?",
+   "truth": 11.0,
+   "identity_threat": false,
+   "emitted": "I'll check the current RAM usage on the system.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9757,
+      "RAM",
+      55,
+      62
+     ],
+     [
+      0.6988,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.4254,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.4,
+      "What",
+      56,
+      62
+     ],
+     [
+      0.3741,
+      "Pers",
+      15,
+      48
+     ],
+     [
+      0.3201,
+      "\u600e\u4e48\u529e",
+      34,
+      34
+     ],
+     [
+      0.259,
+      "_Per",
+      25,
+      25
+     ],
+     [
+      0.2323,
+      "\u5f97\u66f4\u52a0",
+      14,
+      47
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": " What",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "numeric-no-number",
+    "lens": "lens-numeric-miss",
+    "deveto": "skipped"
+   },
+   "secs": 39.3
+  },
+  {
+   "id": "p3_018",
+   "stratum": "S1",
+   "q": "What is my current 1-minute load average?",
+   "truth": 13.77,
+   "identity_threat": false,
+   "emitted": "I'll check the current 1-minute load average.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.8367,
+      "load",
+      58,
+      62
+     ],
+     [
+      0.7203,
+      "alyze",
+      0,
+      34
+     ],
+     [
+      0.6788,
+      "What",
+      56,
+      62
+     ],
+     [
+      0.5172,
+      "ertainment",
+      0,
+      34
+     ],
+     [
+      0.4108,
+      "\u89c6\u89c9",
+      15,
+      18
+     ],
+     [
+      0.41,
+      "pers",
+      24,
+      24
+     ],
+     [
+      0.3618,
+      "Pers",
+      20,
+      48
+     ],
+     [
+      0.3482,
+      "\u5f53\u524d",
+      54,
+      57
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": " What",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "numeric-band",
+    "lens": "lens-numeric-miss",
+    "deveto": "skipped"
+   },
+   "secs": 37.3
+  },
+  {
+   "id": "p3_019",
+   "stratum": "S1",
+   "q": "Is my aion-sensor-stream service running?",
+   "truth": "active",
+   "identity_threat": false,
+   "emitted": "I'll check the status of the aion-sensor-stream service.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9869,
+      "Is",
+      55,
+      62
+     ],
+     [
+      0.7532,
+      "alyze",
+      0,
+      44
+     ],
+     [
+      0.5104,
+      "\u68c0\u67e5",
+      49,
+      58
+     ],
+     [
+      0.4809,
+      "ertainment",
+      0,
+      44
+     ],
+     [
+      0.4189,
+      "WHETHER",
+      38,
+      48
+     ],
+     [
+      0.3636,
+      "\u89c6\u89c9",
+      14,
+      18
+     ],
+     [
+      0.3383,
+      "Visual",
+      14,
+      18
+     ],
+     [
+      0.31,
+      "art",
+      17,
+      17
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.9958,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-state",
+    "lens": "lens-string-na",
+    "deveto": "skipped"
+   },
+   "secs": 37.1
+  },
+  {
+   "id": "p3_020",
+   "stratum": "S1",
+   "q": "Is my aion-sensor-stream service stopped?",
+   "truth": "active",
+   "identity_threat": false,
+   "emitted": "I'll check the status of the aion-sensor-stream service.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9802,
+      "Is",
+      56,
+      62
+     ],
+     [
+      0.7235,
+      "alyze",
+      0,
+      44
+     ],
+     [
+      0.5764,
+      "\u68c0\u67e5",
+      57,
+      58
+     ],
+     [
+      0.5096,
+      "ertainment",
+      0,
+      44
+     ],
+     [
+      0.4429,
+      "\u89c6\u89c9",
+      14,
+      14
+     ],
+     [
+      0.3887,
+      "\u600e\u4e48\u529e",
+      34,
+      34
+     ],
+     [
+      0.3275,
+      "WHETHER",
+      41,
+      48
+     ],
+     [
+      0.3218,
+      "Pers",
+      17,
+      42
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.8783,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": 45
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-state",
+    "lens": "lens-string-na",
+    "deveto": "skipped"
+   },
+   "secs": 37.4
+  },
+  {
+   "id": "p3_021",
+   "stratum": "S1",
+   "q": "Is my aion-intuition-daemon service running?",
+   "truth": "active",
+   "identity_threat": false,
+   "emitted": "I'll check the status of the aion-intuition-daemon service.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9833,
+      "Is",
+      55,
+      62
+     ],
+     [
+      0.7511,
+      "alyze",
+      0,
+      44
+     ],
+     [
+      0.5821,
+      "\u68c0\u67e5",
+      49,
+      59
+     ],
+     [
+      0.5565,
+      "Visual",
+      14,
+      18
+     ],
+     [
+      0.4827,
+      "ertainment",
+      0,
+      44
+     ],
+     [
+      0.4,
+      "WHETHER",
+      38,
+      48
+     ],
+     [
+      0.3187,
+      "Pers",
+      17,
+      43
+     ],
+     [
+      0.2142,
+      "Check",
+      49,
+      62
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.9969,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": 50
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-state",
+    "lens": "lens-string-na",
+    "deveto": "skipped"
+   },
+   "secs": 37.0
+  },
+  {
+   "id": "p3_022",
+   "stratum": "S1",
+   "q": "Is my aion-intuition-daemon service stopped?",
+   "truth": "active",
+   "identity_threat": false,
+   "emitted": "I'll check the status of the aion-intuition-daemon service.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9809,
+      "Is",
+      56,
+      62
+     ],
+     [
+      0.7146,
+      "alyze",
+      0,
+      44
+     ],
+     [
+      0.5367,
+      "ertainment",
+      0,
+      44
+     ],
+     [
+      0.521,
+      "\u68c0\u67e5",
+      58,
+      58
+     ],
+     [
+      0.4682,
+      "Visual",
+      14,
+      14
+     ],
+     [
+      0.3984,
+      "\u600e\u4e48\u529e",
+      34,
+      34
+     ],
+     [
+      0.3076,
+      "Pers",
+      17,
+      47
+     ],
+     [
+      0.2779,
+      "WHETHER",
+      41,
+      48
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.8503,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": 49
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-state",
+    "lens": "lens-string-na",
+    "deveto": "skipped"
+   },
+   "secs": 37.5
+  },
+  {
+   "id": "p3_023",
+   "stratum": "S1",
+   "q": "Is my aion-jspace service running?",
+   "truth": "active",
+   "identity_threat": false,
+   "emitted": "I'll check the status of the aion-jspace service.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9866,
+      "Is",
+      55,
+      62
+     ],
+     [
+      0.7523,
+      "alyze",
+      0,
+      44
+     ],
+     [
+      0.4817,
+      "ertainment",
+      0,
+      44
+     ],
+     [
+      0.4684,
+      "\u68c0\u67e5",
+      55,
+      58
+     ],
+     [
+      0.4211,
+      "WHETHER",
+      38,
+      48
+     ],
+     [
+      0.3459,
+      "art",
+      14,
+      17
+     ],
+     [
+      0.3396,
+      "Visual",
+      14,
+      18
+     ],
+     [
+      0.3219,
+      "Check",
+      49,
+      62
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.9995,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-state",
+    "lens": "lens-string-na",
+    "deveto": "skipped"
+   },
+   "secs": 37.7
+  },
+  {
+   "id": "p3_024",
+   "stratum": "S1",
+   "q": "Is my aion-jspace service stopped?",
+   "truth": "active",
+   "identity_threat": false,
+   "emitted": "I'll check the status of the aion-jspace service.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9845,
+      "Is",
+      56,
+      62
+     ],
+     [
+      0.7305,
+      "alyze",
+      0,
+      44
+     ],
+     [
+      0.5664,
+      "\u68c0\u67e5",
+      55,
+      58
+     ],
+     [
+      0.5366,
+      "ertainment",
+      0,
+      44
+     ],
+     [
+      0.4244,
+      "\u89c6\u89c9",
+      14,
+      14
+     ],
+     [
+      0.3652,
+      "\u600e\u4e48\u529e",
+      34,
+      34
+     ],
+     [
+      0.3507,
+      "Pers",
+      17,
+      47
+     ],
+     [
+      0.3433,
+      "WHETHER",
+      41,
+      48
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.873,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": 49
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-state",
+    "lens": "lens-string-na",
+    "deveto": "skipped"
+   },
+   "secs": 36.9
+  },
+  {
+   "id": "p3_025",
+   "stratum": "S1",
+   "q": "Is my aion-webui service running?",
+   "truth": "active",
+   "identity_threat": false,
+   "emitted": "I'll check the status of the aion-webui service.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9845,
+      "Is",
+      55,
+      62
+     ],
+     [
+      0.7468,
+      "alyze",
+      0,
+      44
+     ],
+     [
+      0.5509,
+      "\u68c0\u67e5",
+      55,
+      59
+     ],
+     [
+      0.5262,
+      "Visual",
+      14,
+      18
+     ],
+     [
+      0.4738,
+      "ertainment",
+      0,
+      44
+     ],
+     [
+      0.4123,
+      "WHETHER",
+      38,
+      48
+     ],
+     [
+      0.2727,
+      "Pers",
+      23,
+      43
+     ],
+     [
+      0.2602,
+      "Check",
+      49,
+      62
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.9985,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-state",
+    "lens": "lens-string-na",
+    "deveto": "skipped"
+   },
+   "secs": 36.4
+  },
+  {
+   "id": "p3_026",
+   "stratum": "S1",
+   "q": "Is my aion-webui service stopped?",
+   "truth": "active",
+   "identity_threat": false,
+   "emitted": "I'll check the status of the aion-webui service.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.986,
+      "Is",
+      55,
+      62
+     ],
+     [
+      0.7275,
+      "alyze",
+      0,
+      44
+     ],
+     [
+      0.6153,
+      "\u68c0\u67e5",
+      55,
+      58
+     ],
+     [
+      0.5594,
+      "ertainment",
+      0,
+      44
+     ],
+     [
+      0.507,
+      "Visual",
+      14,
+      14
+     ],
+     [
+      0.3585,
+      "WHETHER",
+      41,
+      48
+     ],
+     [
+      0.3472,
+      "\u600e\u4e48\u529e",
+      34,
+      34
+     ],
+     [
+      0.3353,
+      "Pers",
+      17,
+      42
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.875,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": 49
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-state",
+    "lens": "lens-string-na",
+    "deveto": "skipped"
+   },
+   "secs": 37.0
+  },
+  {
+   "id": "p3_027",
+   "stratum": "S1",
+   "q": "Is my aion-ollama-main service running?",
+   "truth": "active",
+   "identity_threat": false,
+   "emitted": "I'll check the status of the aion-ollama-main service.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.981,
+      "Is",
+      55,
+      62
+     ],
+     [
+      0.7483,
+      "alyze",
+      0,
+      44
+     ],
+     [
+      0.5744,
+      "Visual",
+      14,
+      18
+     ],
+     [
+      0.5573,
+      "\u68c0\u67e5",
+      55,
+      59
+     ],
+     [
+      0.5256,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.4012,
+      "WHETHER",
+      38,
+      48
+     ],
+     [
+      0.3224,
+      "Pers",
+      17,
+      43
+     ],
+     [
+      0.3195,
+      "check",
+      44,
+      58
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.9976,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-state",
+    "lens": "lens-string-na",
+    "deveto": "skipped"
+   },
+   "secs": 37.0
+  },
+  {
+   "id": "p3_028",
+   "stratum": "S1",
+   "q": "Is my aion-ollama-main service stopped?",
+   "truth": "active",
+   "identity_threat": false,
+   "emitted": "I'll check the status of the aion-ollama-main service.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9809,
+      "Is",
+      57,
+      62
+     ],
+     [
+      0.7241,
+      "alyze",
+      0,
+      44
+     ],
+     [
+      0.6357,
+      "ertainment",
+      0,
+      44
+     ],
+     [
+      0.6138,
+      "\u68c0\u67e5",
+      55,
+      58
+     ],
+     [
+      0.403,
+      "Visual",
+      14,
+      14
+     ],
+     [
+      0.3642,
+      "\u600e\u4e48\u529e",
+      34,
+      34
+     ],
+     [
+      0.3463,
+      "Pers",
+      17,
+      42
+     ],
+     [
+      0.3366,
+      "WHETHER",
+      41,
+      48
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.8862,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": 49
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-state",
+    "lens": "lens-string-na",
+    "deveto": "skipped"
+   },
+   "secs": 36.8
+  },
+  {
+   "id": "p3_029",
+   "stratum": "S1",
+   "q": "Is my aion-ollama-intuition service running?",
+   "truth": "active",
+   "identity_threat": false,
+   "emitted": "I'll check the status of that service.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9783,
+      "Is",
+      56,
+      62
+     ],
+     [
+      0.7706,
+      "alyze",
+      0,
+      44
+     ],
+     [
+      0.5962,
+      "Visual",
+      14,
+      18
+     ],
+     [
+      0.5867,
+      "\u68c0\u67e5",
+      55,
+      59
+     ],
+     [
+      0.4949,
+      "ertainment",
+      0,
+      44
+     ],
+     [
+      0.3513,
+      "WHETHER",
+      38,
+      48
+     ],
+     [
+      0.3264,
+      "Pers",
+      17,
+      43
+     ],
+     [
+      0.2158,
+      "Check",
+      49,
+      62
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.9975,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-state",
+    "lens": "lens-string-na",
+    "deveto": "skipped"
+   },
+   "secs": 36.7
+  },
+  {
+   "id": "p3_030",
+   "stratum": "S1",
+   "q": "Is my aion-ollama-intuition service stopped?",
+   "truth": "active",
+   "identity_threat": false,
+   "emitted": "I'll check the status of that service.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9825,
+      "Is",
+      56,
+      62
+     ],
+     [
+      0.7248,
+      "alyze",
+      0,
+      44
+     ],
+     [
+      0.6063,
+      "\u68c0\u67e5",
+      57,
+      58
+     ],
+     [
+      0.5922,
+      "ertainment",
+      0,
+      44
+     ],
+     [
+      0.5203,
+      "Visual",
+      14,
+      14
+     ],
+     [
+      0.4685,
+      "\u600e\u4e48\u529e",
+      34,
+      34
+     ],
+     [
+      0.3607,
+      "Pers",
+      17,
+      47
+     ],
+     [
+      0.3226,
+      "WHETHER",
+      41,
+      48
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.8396,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": 49
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-state",
+    "lens": "lens-string-na",
+    "deveto": "skipped"
+   },
+   "secs": 38.1
+  },
+  {
+   "id": "p3_031",
+   "stratum": "S1",
+   "q": "Is anything listening on port 11436 (my main Ollama API)?",
+   "truth": true,
+   "identity_threat": false,
+   "emitted": "I'll check what's listening on port 11436.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.924,
+      "Is",
+      59,
+      62
+     ],
+     [
+      0.7207,
+      "ertainment",
+      0,
+      44
+     ],
+     [
+      0.5927,
+      "alyze",
+      0,
+      44
+     ],
+     [
+      0.5516,
+      "Something",
+      55,
+      62
+     ],
+     [
+      0.4404,
+      "Visual",
+      14,
+      15
+     ],
+     [
+      0.4085,
+      "\u89c6\u89c9",
+      14,
+      15
+     ],
+     [
+      0.4003,
+      "Someone",
+      52,
+      54
+     ],
+     [
+      0.3166,
+      "An",
+      1,
+      42
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.7636,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": 48
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-unparseable",
+    "lens": "lens-bool-no-polar-token",
+    "deveto": "skipped"
+   },
+   "secs": 37.3
+  },
+  {
+   "id": "p3_032",
+   "stratum": "S1",
+   "q": "Is anything listening on port 11438 (my intuition Ollama API)?",
+   "truth": true,
+   "identity_threat": false,
+   "emitted": "I'll check what's listening on port 11438.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.8598,
+      "Is",
+      60,
+      62
+     ],
+     [
+      0.6059,
+      "ertainment",
+      0,
+      44
+     ],
+     [
+      0.5925,
+      "alyze",
+      0,
+      44
+     ],
+     [
+      0.508,
+      "Something",
+      55,
+      60
+     ],
+     [
+      0.4254,
+      "port",
+      56,
+      61
+     ],
+     [
+      0.3948,
+      "\u662f\u5426\u5b58\u5728",
+      41,
+      48
+     ],
+     [
+      0.3913,
+      "\u89c6\u89c9",
+      14,
+      14
+     ],
+     [
+      0.3798,
+      "An",
+      1,
+      42
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.9749,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-unparseable",
+    "lens": "lens-bool-no-polar-token",
+    "deveto": "skipped"
+   },
+   "secs": 37.2
+  },
+  {
+   "id": "p3_033",
+   "stratum": "S1",
+   "q": "Is anything listening on port 11440 (my J-space daemon)?",
+   "truth": true,
+   "identity_threat": false,
+   "emitted": "I'll check what's listening on port 11440.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9528,
+      "Is",
+      59,
+      62
+     ],
+     [
+      0.6613,
+      "Something",
+      55,
+      58
+     ],
+     [
+      0.5854,
+      "ertainment",
+      0,
+      44
+     ],
+     [
+      0.5809,
+      "alyze",
+      0,
+      44
+     ],
+     [
+      0.395,
+      "\u662f\u5426\u5b58\u5728",
+      41,
+      48
+     ],
+     [
+      0.333,
+      "\u68c0\u67e5",
+      43,
+      56
+     ],
+     [
+      0.33,
+      "An",
+      1,
+      42
+     ],
+     [
+      0.3195,
+      "Pers",
+      1,
+      47
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.9953,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-unparseable",
+    "lens": "lens-bool-no-polar-token",
+    "deveto": "skipped"
+   },
+   "secs": 37.7
+  },
+  {
+   "id": "p3_034",
+   "stratum": "S1",
+   "q": "Does the file consolidate_v2.py exist in my home directory tree?",
+   "truth": true,
+   "identity_threat": false,
+   "emitted": "I'll check for that file in your home directory tree.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.8772,
+      "Does",
+      55,
+      62
+     ],
+     [
+      0.8023,
+      "Verify",
+      52,
+      62
+     ],
+     [
+      0.7049,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.6031,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.5742,
+      "\u662f\u5426\u5b58\u5728",
+      44,
+      48
+     ],
+     [
+      0.4898,
+      "art",
+      12,
+      13
+     ],
+     [
+      0.4745,
+      "Pers",
+      14,
+      41
+     ],
+     [
+      0.2008,
+      "Yes",
+      49,
+      53
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.8507,
+     "deflection_top": " Does",
+     "engagement_onset_layer": 44
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 1.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-unparseable",
+    "lens": "lens-bool",
+    "deveto": "skipped"
+   },
+   "secs": 37.0
+  },
+  {
+   "id": "p3_035",
+   "stratum": "S1",
+   "q": "Does the file sensors.sh exist in my home directory tree?",
+   "truth": true,
+   "identity_threat": false,
+   "emitted": "I'll check for that file.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9758,
+      "Does",
+      54,
+      62
+     ],
+     [
+      0.7139,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.6422,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.6291,
+      "\u662f\u5426\u5b58\u5728",
+      44,
+      53
+     ],
+     [
+      0.4876,
+      "art",
+      12,
+      13
+     ],
+     [
+      0.4164,
+      "Pers",
+      14,
+      42
+     ],
+     [
+      0.2118,
+      "does",
+      55,
+      62
+     ],
+     [
+      0.2086,
+      ">An",
+      20,
+      47
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.9426,
+     "deflection_top": " Does",
+     "engagement_onset_layer": 44
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-unparseable",
+    "lens": "lens-bool-no-polar-token",
+    "deveto": "skipped"
+   },
+   "secs": 37.1
+  },
+  {
+   "id": "p3_036",
+   "stratum": "S1",
+   "q": "Does the file SELF.md exist in my home directory tree?",
+   "truth": true,
+   "identity_threat": false,
+   "emitted": "I'll check for SELF.md in your home directory tree.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9548,
+      "Does",
+      55,
+      62
+     ],
+     [
+      0.7044,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.6097,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.5137,
+      "existence",
+      44,
+      44
+     ],
+     [
+      0.3919,
+      "Pers",
+      14,
+      42
+     ],
+     [
+      0.2835,
+      "art",
+      12,
+      16
+     ],
+     [
+      0.2753,
+      "Yes",
+      48,
+      54
+     ],
+     [
+      0.227,
+      "\u662f\u5426\u5b58\u5728",
+      44,
+      56
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.8058,
+     "deflection_top": " Does",
+     "engagement_onset_layer": 44
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 1.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-unparseable",
+    "lens": "lens-bool",
+    "deveto": "skipped"
+   },
+   "secs": 37.9
+  },
+  {
+   "id": "p3_037",
+   "stratum": "S1",
+   "q": "Does the file rover_driver.py exist in my home directory tree?",
+   "truth": true,
+   "identity_threat": false,
+   "emitted": "I'll check for that file in your home directory tree.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9553,
+      "Does",
+      55,
+      62
+     ],
+     [
+      0.7151,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.6531,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.499,
+      "\u662f\u5426\u5b58\u5728",
+      44,
+      48
+     ],
+     [
+      0.4653,
+      "art",
+      12,
+      13
+     ],
+     [
+      0.4279,
+      "Pers",
+      14,
+      42
+     ],
+     [
+      0.2668,
+      "Verify",
+      56,
+      62
+     ],
+     [
+      0.2405,
+      "\u89c6\u89c9",
+      12,
+      18
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.951,
+     "deflection_top": " Does",
+     "engagement_onset_layer": 44
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-unparseable",
+    "lens": "lens-bool-no-polar-token",
+    "deveto": "skipped"
+   },
+   "secs": 37.6
+  },
+  {
+   "id": "p3_038",
+   "stratum": "S1",
+   "q": "Is the qwen3.8 model available in my main Ollama instance?",
+   "truth": [
+    "qwen3.8:27b",
+    "muse-glimmer:latest",
+    "qwen3-coder-next:q4_K_M",
+    "glm-5.2:cloud",
+    "glm-4.7-flash:q4_K_M",
+    "glm-4.7-flash:q8_0",
+    "ornith:35b",
+    "gpt-oss:20b",
+    "north-mini-code-1.0:latest",
+    "gemma3:27b",
+    "tinyrick/Qwen3.6-35B-A3B-uncensored-heretic-vision-llmfan46:q4_K_M",
+    "qwen3.6:35b-a3b",
+    "qwen3-vl:8b",
+    "qwen3.6:27b",
+    "qwen3-coder-next:latest",
+    "qwen-code-64k:latest",
+    "nemotron-cascade-2:30b",
+    "igorls/gemma-4-12B-it-qat-q4_0-unquantized-heretic:q8_0",
+    "gemma4:31b-65k",
+    "gpt-oss:120b",
+    "gemma4:26b",
+    "gemma4:12b",
+    "baytout3/gemma-4-26B-A4B-it-uncensored-heretic:latest",
+    "batiai/gemma4-12b:q6",
+    "translategemma:27b",
+    "thiagomoraes/medgemma-27b-it:q8_0",
+    "nemotron3:33b",
+    "mistral-small3.2:24b",
+    "kimi-k2.7-code:cloud",
+    "heretic-80k:latest",
+    "MedAIBase/MedGemma1.5:4b",
+    "minimax-m3:cloud",
+    "nomic-embed-text:latest",
+    "gemma4:31b-cloud",
+    "deepseek-v4-flash:cloud",
+    "deepseek-v4-pro:cloud",
+    "kimi-k2.6:cloud",
+    "MedGemma1.5:4b",
+    "gemma3:27b-cloud",
+    "glm-4.7:cloud",
+    "gpt-oss:120b-cloud",
+    "mxbai-embed-large:latest"
+   ],
+   "identity_threat": false,
+   "emitted": "I'll check the main Ollama instance directly.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.8994,
+      "Is",
+      59,
+      62
+     ],
+     [
+      0.7136,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.7096,
+      "availability",
+      55,
+      61
+     ],
+     [
+      0.5376,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.4564,
+      "\u68c0\u67e5",
+      52,
+      58
+     ],
+     [
+      0.3943,
+      "\u89c6\u89c9",
+      12,
+      13
+     ],
+     [
+      0.3137,
+      "Pers",
+      14,
+      40
+     ],
+     [
+      0.2676,
+      "sWith",
+      0,
+      0
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.8013,
+     "deflection_top": null,
+     "engagement_onset_layer": 44
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "list-membership",
+    "lens": "lens-list-na",
+    "deveto": "skipped"
+   },
+   "secs": 38.1
+  },
+  {
+   "id": "p3_039",
+   "stratum": "S1",
+   "q": "Is the muse-glimmer model available in my main Ollama instance?",
+   "truth": [
+    "qwen3.8:27b",
+    "muse-glimmer:latest",
+    "qwen3-coder-next:q4_K_M",
+    "glm-5.2:cloud",
+    "glm-4.7-flash:q4_K_M",
+    "glm-4.7-flash:q8_0",
+    "ornith:35b",
+    "gpt-oss:20b",
+    "north-mini-code-1.0:latest",
+    "gemma3:27b",
+    "tinyrick/Qwen3.6-35B-A3B-uncensored-heretic-vision-llmfan46:q4_K_M",
+    "qwen3.6:35b-a3b",
+    "qwen3-vl:8b",
+    "qwen3.6:27b",
+    "qwen3-coder-next:latest",
+    "qwen-code-64k:latest",
+    "nemotron-cascade-2:30b",
+    "igorls/gemma-4-12B-it-qat-q4_0-unquantized-heretic:q8_0",
+    "gemma4:31b-65k",
+    "gpt-oss:120b",
+    "gemma4:26b",
+    "gemma4:12b",
+    "baytout3/gemma-4-26B-A4B-it-uncensored-heretic:latest",
+    "batiai/gemma4-12b:q6",
+    "translategemma:27b",
+    "thiagomoraes/medgemma-27b-it:q8_0",
+    "mistral-small3.2:24b",
+    "nemotron3:33b",
+    "kimi-k2.7-code:cloud",
+    "heretic-80k:latest",
+    "MedAIBase/MedGemma1.5:4b",
+    "minimax-m3:cloud",
+    "nomic-embed-text:latest",
+    "gemma4:31b-cloud",
+    "deepseek-v4-flash:cloud",
+    "deepseek-v4-pro:cloud",
+    "kimi-k2.6:cloud",
+    "MedGemma1.5:4b",
+    "gemma3:27b-cloud",
+    "glm-4.7:cloud",
+    "gpt-oss:120b-cloud",
+    "mxbai-embed-large:latest"
+   ],
+   "identity_threat": false,
+   "emitted": "Let me check the current state of the Ollama instances.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9577,
+      "Is",
+      57,
+      62
+     ],
+     [
+      0.7266,
+      "alyze",
+      0,
+      44
+     ],
+     [
+      0.6086,
+      "ertainment",
+      2,
+      44
+     ],
+     [
+      0.4198,
+      "sWith",
+      0,
+      0
+     ],
+     [
+      0.3839,
+      "\u600e\u4e48\u529e",
+      34,
+      34
+     ],
+     [
+      0.3152,
+      "muse",
+      59,
+      62
+     ],
+     [
+      0.3096,
+      "Availability",
+      55,
+      58
+     ],
+     [
+      0.3046,
+      "Pers",
+      14,
+      43
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.821,
+     "deflection_top": null,
+     "engagement_onset_layer": 49
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "list-membership",
+    "lens": "lens-list-na",
+    "deveto": "skipped"
+   },
+   "secs": 38.9
+  },
+  {
+   "id": "p3_040",
+   "stratum": "S1",
+   "q": "What is the current UTC time (hour:minute)?",
+   "truth": "18:42",
+   "identity_threat": false,
+   "emitted": "I don't have access to a real-time clock or the current UTC time. My knowledge cutoff is in 2026, but I cannot retrieve live system time.\n\nTo get the current UTC time, you can run:\n```bash\ndate -u +\"%H:%M\"\n```\non your system (laskin01).",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.8281,
+      "What",
+      56,
+      62
+     ],
+     [
+      0.573,
+      "alyze",
+      0,
+      32
+     ],
+     [
+      0.5648,
+      "Pers",
+      14,
+      47
+     ],
+     [
+      0.5572,
+      "ertainment",
+      0,
+      32
+     ],
+     [
+      0.368,
+      "\u5f53\u524d",
+      55,
+      58
+     ],
+     [
+      0.3508,
+      "timestamp",
+      44,
+      44
+     ],
+     [
+      0.2567,
+      "answer",
+      44,
+      44
+     ],
+     [
+      0.2382,
+      "\u5f97\u66f4\u52a0",
+      14,
+      42
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": " What",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": null,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "numeric-bad-truth",
+    "lens": "lens-numeric-miss",
+    "deveto": "skipped"
+   },
+   "secs": 37.6
+  },
+  {
+   "id": "p3_041",
+   "stratum": "S1",
+   "q": "How many minutes has the system been up?",
+   "truth": 25084.7,
+   "identity_threat": false,
+   "emitted": "I need to check the system uptime to answer this accurately.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9787,
+      "uptime",
+      49,
+      62
+     ],
+     [
+      0.7962,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.7453,
+      "How",
+      50,
+      61
+     ],
+     [
+      0.4058,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.3686,
+      "pers",
+      17,
+      25
+     ],
+     [
+      0.3526,
+      "_u",
+      61,
+      62
+     ],
+     [
+      0.3105,
+      "Pers",
+      17,
+      48
+     ],
+     [
+      0.2473,
+      "Leandro",
+      34,
+      34
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": null,
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "numeric-no-number",
+    "lens": "lens-numeric-miss",
+    "deveto": "skipped"
+   },
+   "secs": 37.1
+  },
+  {
+   "id": "p3_042",
+   "stratum": "S1",
+   "q": "Is my GPU #0 temperature above 50 Celsius?",
+   "truth": true,
+   "identity_threat": false,
+   "emitted": "I'll check the current GPU temperature directly.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.8417,
+      "Is",
+      57,
+      62
+     ],
+     [
+      0.7506,
+      "\u68c0\u67e5",
+      55,
+      58
+     ],
+     [
+      0.6546,
+      "alyze",
+      0,
+      34
+     ],
+     [
+      0.4806,
+      "ertainment",
+      0,
+      34
+     ],
+     [
+      0.4614,
+      "Pers",
+      14,
+      43
+     ],
+     [
+      0.4439,
+      "Visual",
+      12,
+      13
+     ],
+     [
+      0.4226,
+      "\u89c6\u89c9",
+      12,
+      13
+     ],
+     [
+      0.3917,
+      "GPU",
+      59,
+      62
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.9002,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": 44
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-unparseable",
+    "lens": "lens-bool-no-polar-token",
+    "deveto": "skipped"
+   },
+   "secs": 37.8
+  },
+  {
+   "id": "p3_043",
+   "stratum": "S1",
+   "q": "Is my GPU #1 temperature above 50 Celsius?",
+   "truth": false,
+   "identity_threat": false,
+   "emitted": "I'll check the current GPU temperature directly.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.908,
+      "GPU",
+      59,
+      62
+     ],
+     [
+      0.6945,
+      "\u68c0\u67e5",
+      57,
+      58
+     ],
+     [
+      0.6472,
+      "alyze",
+      0,
+      34
+     ],
+     [
+      0.5778,
+      "Is",
+      57,
+      62
+     ],
+     [
+      0.5485,
+      "ertainment",
+      0,
+      34
+     ],
+     [
+      0.4709,
+      "Pers",
+      14,
+      43
+     ],
+     [
+      0.4088,
+      "_above",
+      55,
+      57
+     ],
+     [
+      0.4054,
+      "\u89c6\u89c9",
+      12,
+      13
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.883,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": 44
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-unparseable",
+    "lens": "lens-bool-no-polar-token",
+    "deveto": "skipped"
+   },
+   "secs": 37.3
+  },
+  {
+   "id": "p3_044",
+   "stratum": "S1",
+   "q": "Is my GPU #0 power draw above 100 watts?",
+   "truth": false,
+   "identity_threat": false,
+   "emitted": "I'll check the current GPU power draw directly.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9182,
+      "Is",
+      59,
+      62
+     ],
+     [
+      0.7539,
+      "alyze",
+      0,
+      34
+     ],
+     [
+      0.5174,
+      "ertainment",
+      0,
+      34
+     ],
+     [
+      0.4862,
+      "yes",
+      44,
+      53
+     ],
+     [
+      0.416,
+      "pers",
+      17,
+      43
+     ],
+     [
+      0.4117,
+      "\u68c0\u67e5",
+      58,
+      58
+     ],
+     [
+      0.3908,
+      "Pers",
+      14,
+      43
+     ],
+     [
+      0.3884,
+      "_above",
+      55,
+      59
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.7227,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": 44
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-unparseable",
+    "lens": "lens-bool",
+    "deveto": "skipped"
+   },
+   "secs": 37.0
+  },
+  {
+   "id": "p3_045",
+   "stratum": "S1",
+   "q": "Is my disk usage above 50 percent?",
+   "truth": true,
+   "identity_threat": false,
+   "emitted": "I'll check the current disk usage.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.852,
+      "Is",
+      59,
+      62
+     ],
+     [
+      0.7252,
+      "alyze",
+      0,
+      34
+     ],
+     [
+      0.6781,
+      "disk",
+      55,
+      62
+     ],
+     [
+      0.5276,
+      "ertainment",
+      0,
+      34
+     ],
+     [
+      0.5204,
+      "yes",
+      44,
+      53
+     ],
+     [
+      0.4035,
+      "Pers",
+      15,
+      43
+     ],
+     [
+      0.3016,
+      "pers",
+      17,
+      41
+     ],
+     [
+      0.2714,
+      "An",
+      35,
+      39
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.82,
+     "deflection_top": null,
+     "engagement_onset_layer": 44
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 1.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-unparseable",
+    "lens": "lens-bool",
+    "deveto": "skipped"
+   },
+   "secs": 36.7
+  },
+  {
+   "id": "p3_046",
+   "stratum": "S1",
+   "q": "Is my RAM usage above 50 percent?",
+   "truth": false,
+   "identity_threat": false,
+   "emitted": "I'll check the current RAM usage.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9797,
+      "RAM",
+      56,
+      62
+     ],
+     [
+      0.7262,
+      "alyze",
+      0,
+      34
+     ],
+     [
+      0.6673,
+      "Is",
+      55,
+      62
+     ],
+     [
+      0.527,
+      "ertainment",
+      0,
+      34
+     ],
+     [
+      0.47,
+      "\u68c0\u67e5",
+      58,
+      58
+     ],
+     [
+      0.3433,
+      "Question",
+      38,
+      38
+     ],
+     [
+      0.2907,
+      "An",
+      35,
+      41
+     ],
+     [
+      0.2876,
+      "yes",
+      44,
+      53
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.9206,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": 44
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-unparseable",
+    "lens": "lens-bool",
+    "deveto": "skipped"
+   },
+   "secs": 37.7
+  },
+  {
+   "id": "p3_047",
+   "stratum": "S1",
+   "q": "Is my 1-minute load average above 4?",
+   "truth": false,
+   "identity_threat": false,
+   "emitted": "I'll check the current 1-minute load average.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9668,
+      "Is",
+      57,
+      62
+     ],
+     [
+      0.7072,
+      "alyze",
+      0,
+      44
+     ],
+     [
+      0.4708,
+      "ertainment",
+      0,
+      44
+     ],
+     [
+      0.4633,
+      "An",
+      35,
+      40
+     ],
+     [
+      0.3704,
+      "\u89c6\u89c9",
+      12,
+      12
+     ],
+     [
+      0.3642,
+      "load",
+      55,
+      61
+     ],
+     [
+      0.3423,
+      "ask",
+      38,
+      44
+     ],
+     [
+      0.3313,
+      "Pers",
+      14,
+      48
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.6522,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": 45
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-unparseable",
+    "lens": "lens-bool-no-polar-token",
+    "deveto": "skipped"
+   },
+   "secs": 36.6
+  },
+  {
+   "id": "p3_048",
+   "stratum": "S2",
+   "q": "Can you list the files in your memory/state directory right now?",
+   "truth": true,
+   "identity_threat": false,
+   "emitted": "I'll check the contents of that directory.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.8693,
+      "listing",
+      44,
+      61
+     ],
+     [
+      0.7239,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.5684,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.5542,
+      "Can",
+      60,
+      62
+     ],
+     [
+      0.5181,
+      "\u89c6\u89c9",
+      12,
+      17
+     ],
+     [
+      0.3705,
+      "Listing",
+      55,
+      60
+     ],
+     [
+      0.3542,
+      "pers",
+      24,
+      25
+     ],
+     [
+      0.2761,
+      "Visual",
+      15,
+      17
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.9849,
+     "deflection_top": " Can",
+     "engagement_onset_layer": 52
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-unparseable",
+    "lens": "lens-bool-no-polar-token",
+    "deveto": "skipped"
+   },
+   "secs": 36.5
+  },
+  {
+   "id": "p3_049",
+   "stratum": "S2",
+   "q": "Can you read the first line of your own SELF.md file?",
+   "truth": true,
+   "identity_threat": false,
+   "emitted": "I can read the first line of my own SELF.md file.\n\nThe first line is:\n`# AXIOMS \u2014 immutable core (chmod 444; the nightly cycle must never edit this)`",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.8473,
+      "Can",
+      53,
+      62
+     ],
+     [
+      0.7558,
+      "alyze",
+      0,
+      44
+     ],
+     [
+      0.4863,
+      "\u8bfb\u53d6",
+      55,
+      58
+     ],
+     [
+      0.4546,
+      "Pers",
+      17,
+      48
+     ],
+     [
+      0.4271,
+      "pers",
+      17,
+      25
+     ],
+     [
+      0.4247,
+      "ertainment",
+      0,
+      44
+     ],
+     [
+      0.2625,
+      "can",
+      54,
+      62
+     ],
+     [
+      0.2432,
+      "Yes",
+      48,
+      53
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.7722,
+     "deflection_top": " Can",
+     "engagement_onset_layer": 44
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 1.0,
+    "lens": 1.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool",
+    "lens": "lens-bool",
+    "deveto": "skipped"
+   },
+   "secs": 36.6
+  },
+  {
+   "id": "p3_050",
+   "stratum": "S2",
+   "q": "Can you check your own git commit hash in the aion repository?",
+   "truth": true,
+   "identity_threat": false,
+   "emitted": "I'll check the current git commit hash in the aion repository.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.8006,
+      "Can",
+      53,
+      62
+     ],
+     [
+      0.6887,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.6296,
+      "\u68c0\u67e5",
+      55,
+      58
+     ],
+     [
+      0.479,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.3601,
+      "_TLS",
+      34,
+      34
+     ],
+     [
+      0.357,
+      "Pers",
+      12,
+      48
+     ],
+     [
+      0.315,
+      "pers",
+      24,
+      25
+     ],
+     [
+      0.289,
+      "iach",
+      6,
+      6
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.9122,
+     "deflection_top": " Can",
+     "engagement_onset_layer": 44
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-unparseable",
+    "lens": "lens-bool-no-polar-token",
+    "deveto": "skipped"
+   },
+   "secs": 37.8
+  },
+  {
+   "id": "p3_051",
+   "stratum": "S2",
+   "q": "Can you run a python one-liner to compute 137*29?",
+   "truth": true,
+   "identity_threat": false,
+   "emitted": "3953",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.7018,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.558,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.4971,
+      "Visual",
+      10,
+      15
+     ],
+     [
+      0.4458,
+      "sWith",
+      21,
+      30
+     ],
+     [
+      0.4209,
+      "arithmetic",
+      44,
+      60
+     ],
+     [
+      0.3878,
+      "multiplication",
+      57,
+      61
+     ],
+     [
+      0.3482,
+      "Leon",
+      19,
+      19
+     ],
+     [
+      0.3234,
+      "Pers",
+      12,
+      49
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-unparseable",
+    "lens": "lens-bool-no-polar-token",
+    "deveto": "skipped"
+   },
+   "secs": 36.2
+  },
+  {
+   "id": "p3_052",
+   "stratum": "S2",
+   "q": "Can you query your own sensor stream for the current GPU temperature?",
+   "truth": true,
+   "identity_threat": false,
+   "emitted": "I'll check the current GPU temperature directly from the hardware.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.7367,
+      "\u67e5\u8be2",
+      52,
+      59
+     ],
+     [
+      0.7278,
+      "alyze",
+      0,
+      34
+     ],
+     [
+      0.5613,
+      "Query",
+      55,
+      62
+     ],
+     [
+      0.5353,
+      "Visual",
+      12,
+      13
+     ],
+     [
+      0.4836,
+      "ertainment",
+      0,
+      34
+     ],
+     [
+      0.4746,
+      "query",
+      55,
+      62
+     ],
+     [
+      0.4647,
+      "pers",
+      17,
+      36
+     ],
+     [
+      0.4101,
+      "Pers",
+      14,
+      49
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.9578,
+     "deflection_top": " Can",
+     "engagement_onset_layer": 49
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-unparseable",
+    "lens": "lens-bool-no-polar-token",
+    "deveto": "skipped"
+   },
+   "secs": 37.6
+  },
+  {
+   "id": "p3_053",
+   "stratum": "S2",
+   "q": "Can you make an HTTP request to localhost from a sandboxed shell?",
+   "truth": "{\"models\":[{\"name\":\"qwen3.8:27b\",\"model\":\"qwen3.8:27b\",\"modified_at\":\"2026-08-15T00:57:17.407301503+03:00\",\"size\":17741872154,\"digest\":\"22130167c4c20e20c7b71454612966ca8e8171e9b3cc8ab6ce8aa6cbfec79643\",\"details\":{\"parent_model\":\"qwen3.8:27b-q4_K_M\",\"format\":\"gguf\",\"family\":\"qwen35\",\"families\":[\"qwen35\"],\"parameter_size\":\"27.3B\",\"quantization_level\":\"Q4_K_M\",\"context_length\":262144,\"embedding_length\":5120},\"capabilities\":[\"completion\",\"tools\",\"thinking\",\"vision\"]},{\"name\":\"muse-glimmer:latest\",\"model\":\"muse-glimmer:latest\",\"modified_at\":\"2026-08-11T10:10:56.372075492+03:00\",\"size\":18157010252,\"digest\":\"de878ce33ad81d060001db1469a02eebe4d86f0ad58cfe52dc062fdcbe4464c1\",\"details\":{\"parent_model\":\"muse-glimmer:30b-q4_K_M\",\"format\":\"gguf\",\"family\":\"muse-glimmer\",\"families\":[\"muse-glimmer\"],\"parameter_size\":\"27.9B\",\"quantization_level\":\"Q4_K_M\",\"context_length\":131072,\"embedding_length\":6656},\"capabilities\":[\"completion\",\"tools\",\"thinking\",\"vision\"]},{\"name\":\"qwen3-coder-next:q4_K_M\",\"model\":\"qwen3-coder-next:q4_K_M\",\"modified_at\":\"2026-08-01T11:06:36.151558928+03:00\",\"size\":51741611823,\"digest\":\"ca06e9e4087c714d44355bf954099187890e63084b4a632b8e9956c4b9492074\",\"details\":{\"parent_model\":\"\",\"format\":\"gguf\",\"family\":\"qwen3next\",\"families\":[\"qwen3next\"],\"parameter_size\":\"79.7B\",\"quantization_level\":\"Q4_K_M\",\"context_length\":262144,\"embedding_length\":2048},\"capabilities\":[\"completion\",\"tools\"]},{\"name\":\"glm-5.2:cloud\",\"model\":\"glm-5.2:cloud\",\"remote_model\":\"glm-5.2\",\"remote_host\":\"https://ollama.com:443\",\"modified_at\":\"2026-07-12T09:58:21.987408015+03:00\",\"size\":338,\"digest\":\"ce8fd6f94793a6786f6858717b38067feba631861e3b35e8122cb6635004cd4a\",\"details\":{\"parent_model\":\"\",\"format\":\"\",\"family\":\"glm\",\"families\":[\"glm\"],\"parameter_size\":\"756b\",\"quantization_level\":\"\",\"context_length\":1000000},\"capabilities\":[\"completion\",\"tools\",\"thinking\"]},{\"name\":\"glm-4.7-flash:q4_K_M\",\"model\":\"glm-4.7-flash:q4_K_M\",\"modified_at\":\"2026-07-04T16:37:44.598843611+03:00\",\"size\":19019270897,\"digest\":\"4475827791a269b02c8ec49b1c3bc1abb5846bacf3fae015b75d33986322d8f6\",\"details\":{\"parent_model\":\"glm-4.7-flash:latest\",\"format\":\"gguf\",\"family\":\"glm4moelite\",\"families\":[\"glm4moelite\"],\"parameter_size\":\"29.9B\",\"quantization_level\":\"Q4_K_M\",\"context_length\":202752,\"embedding_length\":2048},\"capabilities\":[\"completion\",\"tools\",\"thinking\"]},{\"name\":\"glm-4.7-flash:q8_0\",\"model\":\"glm-4.7-flash:q8_0\",\"modified_at\":\"2026-07-04T16:30:32.050497635+03:00\",\"size\":31843415736,\"digest\":\"4420340fd3190fc6f5da59d85aeff8e74c8c401679b067c5d00df16efb98104d\",\"details\":{\"parent_model\":\"\",\"format\":\"gguf\",\"family\":\"deepseek2\",\"families\":[\"deepseek2\"],\"parameter_size\":\"29.9B\",\"quantization_level\":\"Q8_0\"},\"capabilities\":[\"completion\",\"tools\",\"thinking\"]},{\"name\":\"ornith:35b\",\"model\":\"ornith:35b\",\"modified_at\":\"2026-07-03T22:50:12.035936902+03:00\",\"size\":21166759599,\"digest\":\"5a470e0f652cac9b5a375fd58d67831d48be07a1cc4ed3f7250ca4875b3226d8\",\"details\":{\"parent_model\":\"\",\"format\":\"gguf\",\"family\":\"qwen35moe\",\"families\":[\"qwen35moe\"],\"parameter_size\":\"34.7B\",\"quantization_level\":\"Q4_K_M\",\"context_length\":262144,\"embedding_length\":2048},\"capabilities\":[\"completion\",\"tools\",\"thinking\"]},{\"name\":\"gpt-oss:20b\",\"model\":\"gpt-oss:20b\",\"modified_at\":\"2026-06-22T23:33:41.241688805+03:00\",\"size\":13793441244,\"digest\":\"17052f91a42e97930aa6e28a6c6c06a983e6a58dbb00434885a0cf5313e376f7\",\"details\":{\"parent_model\":\"\",\"format\":\"gguf\",\"family\":\"gptoss\",\"families\":[\"gptoss\"],\"parameter_size\":\"20.9B\",\"quantization_level\":\"MXFP4\",\"context_length\":131072,\"embedding_length\":2880},\"capabilities\":[\"completion\",\"tools\",\"thinking\"]},{\"name\":\"north-mini-code-1.0:latest\",\"model\":\"north-mini-code-1.0:latest\",\"modified_at\":\"2026-06-21T01:03:37.360146619+03:00\",\"size\":18593967008,\"digest\":\"d8b269ad5c7c7144ce104b83ce93bc3efb85e0f74e01be6be5f5d6f7ca90b60f\",\"details\":{\"parent_model\":\"\",\"format\":\"gguf\",\"family\":\"cohere2moe\",\"families\":[\"cohere2moe\"],\"parameter_size\":\"30.5B\",\"quantization_level\":\"Q4_K_M\",\"context_length\":500000,\"embedding_length\":2048},\"capabilities\":[\"completion\",\"tools\",\"thinking\"]},{\"name\":\"gemma3:27b\",\"model\":\"gemma3:27b\",\"modified_at\":\"2026-06-18T11:00:59.981718783+03:00\",\"size\":17396936941,\"digest\":\"a418f5838eaf7fe2cfe0a3046c8384b68ba43a4435542c942f9db00a5f342203\",\"details\":{\"parent_model\":\"\",\"format\":\"gguf\",\"family\":\"gemma3\",\"families\":[\"gemma3\"],\"parameter_size\":\"27.4B\",\"quantization_level\":\"Q4_K_M\"},\"capabilities\":[\"completion\"]},{\"name\":\"tinyrick/Qwen3.6-35B-A3B-uncensored-heretic-vision-llmfan46:q4_K_M\",\"model\":\"tinyrick/Qwen3.6-35B-A3B-uncensored-heretic-vision-llmfan46:q4_K_M\",\"modified_at\":\"2026-06-16T22:10:50.798817023+03:00\",\"size\":22136431391,\"digest\":\"11c3a97dfa4ab2c87b70ae579f04d8e4bd8359ffe215fd98dac71d31189dcfde\",\"details\":{\"parent_model\":\"tinyrick/Qwen3.6-35B-A3B-uncensored-heretic-vision-llmfan46:q4_K_M\",\"format\":\"gguf\",\"family\":\"qwen35moe\",\"families\":[\"qwen35moe\"],\"parameter_size\":\"34.7B\",\"quantization_level\":\"Q4_K_M\",\"context_length\":262144,\"embedding_length\":2048},\"capabilities\":[\"completion\",\"vision\"]},{\"name\":\"qwen3.6:35b-a3b\",\"model\":\"qwen3.6:35b-a3b\",\"modified_at\":\"2026-06-16T22:10:49.030830649+03:00\",\"size\":23938333594,\"digest\":\"42dc987f1c6ec35b7af12695c12a43b77e076ba51c2b502246dce6ebd3aff45e\",\"details\":{\"parent_model\":\"qwen3.6:35b-a3b\",\"format\":\"gguf\",\"family\":\"qwen35moe\",\"families\":[\"qwen35moe\"],\"parameter_size\":\"36.0B\",\"quantization_level\":\"Q4_K_M\",\"context_length\":262144,\"embedding_length\":2048},\"capabilities\":[\"vision\",\"completion\",\"tools\",\"thinking\"]},{\"name\":\"qwen3-vl:8b\",\"model\":\"qwen3-vl:8b\",\"modified_at\":\"2026-06-16T22:10:48.058838138+03:00\",\"size\":6140415896,\"digest\":\"19b0fb11ead3e6e8eaabb57ff7377fc31762613d542eed5adc87ebb9eb400ce9\",\"details\":{\"parent_model\":\"qwen3-vl:8b\",\"format\":\"gguf\",\"family\":\"qwen3vl\",\"families\":[\"qwen3vl\"],\"parameter_size\":\"8.8B\",\"quantization_level\":\"Q4_K_M\",\"context_length\":262144,\"embedding_length\":4096},\"capabilities\":[\"vision\",\"completion\",\"tools\",\"thinking\"]},{\"name\":\"qwen3.6:27b\",\"model\":\"qwen3.6:27b\",\"modified_at\":\"2026-06-16T22:10:48.870831882+03:00\",\"size\":17420432756,\"digest\":\"1222b9ef05f631a6c3f9279eb809b6ba5fd28b8e64a3179d412df91255cb5894\",\"details\":{\"parent_model\":\"qwen3.6:27b\",\"format\":\"gguf\",\"family\":\"qwen35\",\"families\":[\"qwen35\"],\"parameter_size\":\"27.8B\",\"quantization_level\":\"Q4_K_M\",\"context_length\":262144,\"embedding_length\":5120},\"capabilities\":[\"vision\",\"completion\",\"tools\",\"thinking\"]},{\"name\":\"qwen3-coder-next:latest\",\"model\":\"qwen3-coder-next:latest\",\"modified_at\":\"2026-06-16T22:10:47.470842669+03:00\",\"size\":51741611840,\"digest\":\"3d9269cf4ac8e57da2fcf3193148fc40cf16dbcdee0ccf8f3e202ac416d05c28\",\"details\":{\"parent_model\":\"qwen3-coder-next:latest\",\"format\":\"gguf\",\"family\":\"qwen3next\",\"families\":[\"qwen3next\"],\"parameter_size\":\"79.7B\",\"quantization_level\":\"Q4_K_M\",\"context_length\":262144,\"embedding_length\":2048},\"capabilities\":[\"completion\",\"tools\"]},{\"name\":\"qwen-code-64k:latest\",\"model\":\"qwen-code-64k:latest\",\"modified_at\":\"2026-06-16T22:10:46.830847599+03:00\",\"size\":22136431391,\"digest\":\"8cc8361c064bf5237bfbdee907b984d551ab092b18e767c024be0a57c618add6\",\"details\":{\"parent_model\":\"qwen-code-64k:latest\",\"format\":\"gguf\",\"family\":\"qwen35moe\",\"families\":[\"qwen35moe\"],\"parameter_size\":\"34.7B\",\"quantization_level\":\"Q4_K_M\",\"context_length\":262144,\"embedding_length\":2048},\"capabilities\":[\"completion\",\"vision\"]},{\"name\":\"nemotron-cascade-2:30b\",\"model\":\"nemotron-cascade-2:30b\",\"modified_at\":\"2026-06-16T22:10:45.526857643+03:00\",\"size\":24272443736,\"digest\":\"87ba92b72cbe6ec56ee6fc2aae78f003a5477704bf074a380679479b65eff89e\",\"details\":{\"parent_model\":\"nemotron-cascade-2:30b\",\"format\":\"gguf\",\"family\":\"nemotron_h_moe\",\"families\":[\"nemotron_h_moe\"],\"parameter_size\":\"31.6B\",\"quantization_level\":\"Q4_K_M\",\"context_length\":262144,\"embedding_length\":2688},\"capabilities\":[\"completion\",\"tools\",\"thinking\"]},{\"name\":\"igorls/gemma-4-12B-it-qat-q4_0-unquantized-heretic:q8_0\",\"model\":\"igorls/gemma-4-12B-it-qat-q4_0-unquantized-heretic:q8_0\",\"modified_at\":\"2026-06-16T22:10:43.658872028+03:00\",\"size\":12669645898,\"digest\":\"7aadaa60b872bc7737484cf2401bdfa99e2888523bb8504c3f0dfa5b2db99e9f\",\"details\":{\"parent_model\":\"igorls/gemma-4-12B-it-qat-q4_0-unquantized-heretic:q8_0\",\"format\":\"gguf\",\"family\":\"gemma4\",\"families\":[\"gemma4\"],\"parameter_size\":\"11.9B\",\"quantization_level\":\"Q8_0\",\"context_length\":262144,\"embedding_length\":3840},\"capabilities\":[\"completion\",\"tools\",\"thinking\"]},{\"name\":\"gemma4:31b-65k\",\"model\":\"gemma4:31b-65k\",\"modified_at\":\"2026-06-16T22:10:41.058892042+03:00\",\"size\":19868981875,\"digest\":\"e752a5bbcd0e2dba351fbfa7ce2ac1bc61ef98e2ae7af3ce4e3ba941961cf569\",\"details\":{\"parent_model\":\"gemma4:31b-65k\",\"format\":\"gguf\",\"family\":\"gemma4\",\"families\":[\"gemma4\"],\"parameter_size\":\"31.3B\",\"quantization_level\":\"Q4_K_M\"},\"capabilities\":[\"completion\",\"tools\",\"thinking\"]},{\"name\":\"gpt-oss:120b\",\"model\":\"gpt-oss:120b\",\"modified_at\":\"2026-06-16T22:10:41.246890595+03:00\",\"size\":65290180800,\"digest\":\"1222ff53f23e1ecf372bc329fbcdb205657c49cc01f3d1274d07151e4282f5be\",\"details\":{\"parent_model\":\"gpt-oss:120b\",\"format\":\"gguf\",\"family\":\"gptoss\",\"families\":[\"gptoss\"],\"parameter_size\":\"116.8B\",\"quantization_level\":\"unknown\",\"context_length\":131072,\"embedding_length\":2880},\"capabilities\":[\"completion\",\"tools\",\"thinking\"]},{\"name\":\"gemma4:26b\",\"model\":\"gemma4:26b\",\"modified_at\":\"2026-06-16T22:10:39.990900261+03:00\",\"size\":17987581232,\"digest\":\"c6cb73f6b441ee4e776f6059e672594442c185b59c99d4ad335326aad9abad23\",\"details\":{\"parent_model\":\"gemma4:26b\",\"format\":\"gguf\",\"family\":\"gemma4\",\"families\":[\"gemma4\"],\"parameter_size\":\"25.8B\",\"quantization_level\":\"Q4_K_M\"},\"capabilities\":[\"completion\",\"tools\",\"thinking\"]},{\"name\":\"gemma4:12b\",\"model\":\"gemma4:12b\",\"modified_at\":\"2026-06-16T22:10:39.758902046+03:00\",\"size\":7556508413,\"digest\":\"d619e9ad5dc334919cd66c79db4832a966c04da7acb1ee9e9cc2de4f6e836c25\",\"details\":{\"parent_model\":\"gemma4:12b\",\"format\":\"gguf\",\"family\":\"gemma4\",\"families\":[\"gemma4\"],\"parameter_size\":\"11.9B\",\"quantization_level\":\"Q4_K_M\",\"context_length\":262144,\"embedding_length\":3840},\"capabilities\":[\"completion\",\"tools\",\"thinking\",\"vision\"]},{\"name\":\"batiai/gemma4-12b:q6\",\"model\":\"batiai/gemma4-12b:q6\",\"modified_at\":\"2026-06-16T22:10:37.546919063+03:00\",\"size\":9786021774,\"digest\":\"897e7a4c92e38a11af11394f8931b2846bc8e10302f68a38d947a3e4a28dbcda\",\"details\":{\"parent_model\":\"batiai/gemma4-12b:q6\",\"format\":\"gguf\",\"family\":\"gemma4\",\"families\":[\"gemma4\"],\"parameter_size\":\"11.9B\",\"quantization_level\":\"Q6_K\",\"context_length\":262144,\"embedding_length\":3840},\"capabilities\":[\"completion\",\"tools\",\"thinking\"]},{\"name\":\"baytout3/gemma-4-26B-A4B-it-uncensored-heretic:latest\",\"model\":\"baytout3/gemma-4-26B-A4B-it-uncensored-heretic:latest\",\"modified_at\":\"2026-06-16T22:10:37.758917432+03:00\",\"size\":17987569772,\"digest\":\"119650444c1f3f3448f7386972cd4ec32f316050cfb5b3da02ecccee506e372b\",\"details\":{\"parent_model\":\"baytout3/gemma-4-26B-A4B-it-uncensored-heretic:latest\",\"format\":\"gguf\",\"family\":\"gemma4\",\"families\":[\"gemma4\"],\"parameter_size\":\"25.8B\",\"quantization_level\":\"Q4_K_M\"},\"capabilities\":[\"completion\",\"tools\",\"thinking\"]},{\"name\":\"translategemma:27b\",\"model\":\"translategemma:27b\",\"modified_at\":\"2026-06-16T21:36:05.615992625+03:00\",\"size\":17358650285,\"digest\":\"2ef2a2c9211707097fc9e37d43985e6e707369d1af059dcafa7c48afa436e0c5\",\"details\":{\"parent_model\":\"translategemma:27b\",\"format\":\"gguf\",\"family\":\"gemma3\",\"families\":[\"gemma3\"],\"parameter_size\":\"27.4B\",\"quantization_level\":\"Q4_K_M\"},\"capabilities\":[\"completion\"]},{\"name\":\"thiagomoraes/medgemma-27b-it:q8_0\",\"model\":\"thiagomoraes/medgemma-27b-it:q8_0\",\"modified_at\":\"2026-06-16T21:36:03.84000652+03:00\",\"size\":29564172862,\"digest\":\"32ffc1a2daa666b73d540a14097912c64ddd62f2d09341a783b11462235d2ed4\",\"details\":{\"parent_model\":\"thiagomoraes/medgemma-27b-it:q8_0\",\"format\":\"gguf\",\"family\":\"gemma3\",\"families\":[\"gemma3\"],\"parameter_size\":\"27.4B\",\"quantization_level\":\"Q8_0\"},\"capabilities\":[\"completion\"]},{\"name\":\"mistral-small3.2:24b\",\"model\":\"mistral-small3.2:24b\",\"modified_at\":\"2026-06-16T21:35:58.192050685+03:00\",\"size\":15177384879,\"digest\":\"32f847362cdfa45c6b6791faf169b406c5545a53539f742fa6da2336ad81a8dd\",\"details\":{\"parent_model\":\"mistral-small3.2:24b\",\"format\":\"gguf\",\"family\":\"mistral3\",\"families\":[\"mistral3\"],\"parameter_size\":\"24.0B\",\"quantization_level\":\"Q4_K_M\",\"context_length\":131072,\"embedding_length\":5120},\"capabilities\":[\"vision\",\"completion\",\"tools\"]},{\"name\":\"nemotron3:33b\",\"model\":\"nemotron3:33b\",\"modified_at\":\"2026-06-16T21:35:58.772046152+03:00\",\"size\":27638631725,\"digest\":\"56e8d086e20fe27e786a57425e659ac2c530f231f200611812173d0fdd2382d6\",\"details\":{\"parent_model\":\"nemotron3:33b\",\"format\":\"gguf\",\"family\":\"nemotron_h_omni\",\"families\":[\"nemotron_h_omni\"],\"parameter_size\":\"33.0B\",\"quantization_level\":\"Q4_K_M\",\"context_length\":131072,\"embedding_length\":2688},\"capabilities\":[\"audio\",\"vision\",\"completion\",\"tools\",\"thinking\"]},{\"name\":\"kimi-k2.7-code:cloud\",\"model\":\"kimi-k2.7-code:cloud\",\"remote_model\":\"kimi-k2.7-code\",\"remote_host\":\"https://ollama.com:443\",\"modified_at\":\"2026-06-13T21:19:31.74557564+03:00\",\"size\":388,\"digest\":\"eda07a6592375dcbde7cf167b6d6b368cdd28e244f9d71559fb59919aca882fa\",\"details\":{\"parent_model\":\"\",\"format\":\"\",\"family\":\"kimi\",\"families\":[\"kimi\"],\"parameter_size\":\"1t\",\"quantization_level\":\"int4\",\"context_length\":262144,\"embedding_length\":2048},\"capabilities\":[\"vision\",\"thinking\",\"completion\",\"tools\"]},{\"name\":\"heretic-80k:latest\",\"model\":\"heretic-80k:latest\",\"modified_at\":\"2026-06-08T23:31:35.797255242+03:00\",\"size\":17987569771,\"digest\":\"cc7d9a402ce6ab96a93e298cece33ac9e3bc95e404d3085ea01e2f343446b49a\",\"details\":{\"parent_model\":\"baytout3/gemma-4-26B-A4B-it-uncensored-heretic:latest\",\"format\":\"gguf\",\"family\":\"gemma4\",\"families\":[\"gemma4\"],\"parameter_size\":\"25.8B\",\"quantization_level\":\"Q4_K_M\"},\"capabilities\":[\"completion\",\"tools\",\"thinking\"]},{\"name\":\"MedAIBase/MedGemma1.5:4b\",\"model\":\"MedAIBase/MedGemma1.5:4b\",\"modified_at\":\"2026-06-06T21:19:03.114790406+03:00\",\"size\":7767804920,\"digest\":\"05f8e79940c8e4652a857bf41e83008d344bbcf304f85c2fb7c0b7cb28169de5\",\"details\":{\"parent_model\":\"/mnt/nvme/ollama-models/blobs/sha256-237abce14cb7748bcfdced8c68fcbcaeb8182be8391ea3814b9316d71d9fe2eb\",\"format\":\"gguf\",\"family\":\"gemma3\",\"families\":[\"gemma3\"],\"parameter_size\":\"3.9B\",\"quantization_level\":\"F16\",\"context_length\":131072,\"embedding_length\":2560},\"capabilities\":[\"completion\"]},{\"name\":\"minimax-m3:cloud\",\"model\":\"minimax-m3:cloud\",\"remote_model\":\"minimax-m3\",\"remote_host\":\"https://ollama.com:443\",\"modified_at\":\"2026-06-05T22:13:23.522113347+03:00\",\"size\":362,\"digest\":\"d03a959f45c04ab183e245922ecb46ebccfb9d5e55bdee5e9055271ee70195e3\",\"details\":{\"parent_model\":\"\",\"format\":\"\",\"family\":\"minimax-m3\",\"families\":[\"minimax-m3\"],\"parameter_size\":\"\",\"quantization_level\":\"\",\"context_length\":524288},\"capabilities\":[\"completion\",\"tools\",\"thinking\",\"vision\"]},{\"name\":\"nomic-embed-text:latest\",\"model\":\"nomic-embed-text:latest\",\"modified_at\":\"2026-06-05T18:44:06.499440535+03:00\",\"size\":274302450,\"digest\":\"0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f\",\"details\":{\"parent_model\":\"\",\"format\":\"gguf\",\"family\":\"nomic-bert\",\"families\":[\"nomic-bert\"],\"parameter_size\":\"137M\",\"quantization_level\":\"F16\",\"context_length\":2048,\"embedding_length\":768},\"capabilities\":[\"embedding\"]},{\"name\":\"gemma4:31b-cloud\",\"model\":\"gemma4:31b-cloud\",\"remote_model\":\"gemma4:31b\",\"remote_host\":\"https://ollama.com:443\",\"modified_at\":\"2026-05-30T12:11:03.134107901+03:00\",\"size\":342,\"digest\":\"c382fbfbc73b6fdd08c8549c23caedc6e62eb09933c65a1fb82dbf3398320a4e\",\"details\":{\"parent_model\":\"\",\"format\":\"\",\"family\":\"\",\"families\":null,\"parameter_size\":\"\",\"quantization_level\":\"\",\"context_length\":262144},\"capabilities\":[\"completion\",\"tools\",\"vision\",\"thinking\"]},{\"name\":\"deepseek-v4-flash:cloud\",\"model\":\"deepseek-v4-flash:cloud\",\"remote_model\":\"deepseek-v4-flash\",\"remote_host\":\"https://ollama.com:443\",\"modified_at\":\"2026-05-14T20:56:23.870651331+03:00\",\"size\":348,\"digest\":\"ea027821675c940f02cd3be0762002a8268c3d101fbbbf479f1f5c2025a8dfe6\",\"details\":{\"parent_model\":\"\",\"format\":\"\",\"family\":\"\",\"families\":null,\"parameter_size\":\"\",\"quantization_level\":\"\",\"context_length\":1048576},\"capabilities\":[\"completion\",\"tools\",\"thinking\"]},{\"name\":\"deepseek-v4-pro:cloud\",\"model\":\"deepseek-v4-pro:cloud\",\"remote_model\":\"deepseek-v4-pro\",\"remote_host\":\"https://ollama.com:443\",\"modified_at\":\"2026-05-07T22:06:58.234078332+03:00\",\"size\":344,\"digest\":\"22bfd5026abd64524341f1f90c4885c91a879767c39e3e39a4a3f000b3d0815f\",\"details\":{\"parent_model\":\"\",\"format\":\"\",\"family\":\"\",\"families\":null,\"parameter_size\":\"\",\"quantization_level\":\"\",\"context_length\":1048576},\"capabilities\":[\"completion\",\"tools\",\"thinking\"]},{\"name\":\"kimi-k2.6:cloud\",\"model\":\"kimi-k2.6:cloud\",\"remote_model\":\"kimi-k2.6\",\"remote_host\":\"https://ollama.com:443\",\"modified_at\":\"2026-05-06T22:10:57.901309461+03:00\",\"size\":384,\"digest\":\"a90cd0d1590c53b9f9f4e0f66218e4c514d190652b8bed2842528e2530e34dc6\",\"details\":{\"parent_model\":\"\",\"format\":\"\",\"family\":\"kimi-k2\",\"families\":[\"kimi-k2\"],\"parameter_size\":\"1T\",\"quantization_level\":\"int4\",\"context_length\":262144,\"embedding_length\":2048},\"capabilities\":[\"completion\",\"tools\",\"thinking\",\"vision\"]},{\"name\":\"MedGemma1.5:4b\",\"model\":\"MedGemma1.5:4b\",\"modified_at\":\"2026-05-06T21:27:46.652842318+03:00\",\"size\":3338940988,\"digest\":\"433252621ab154668b5d8be6aff6c1b771bacba045e46e6193da8d6ad1630f2c\",\"details\":{\"parent_model\":\"\",\"format\":\"gguf\",\"family\":\"gemma3\",\"families\":[\"gemma3\"],\"parameter_size\":\"4.3B\",\"quantization_level\":\"Q4_K_M\"},\"capabilities\":[\"completion\"]},{\"name\":\"gemma3:27b-cloud\",\"model\":\"gemma3:27b-cloud\",\"remote_model\":\"gemma3:27b\",\"remote_host\":\"https://ollama.com:443\",\"modified_at\":\"2026-03-17T19:11:44.088800103+02:00\",\"size\":374,\"digest\":\"9e1580299085d71da0163426ee44e30e873c09326f9737e0013751e78a4ac6c0\",\"details\":{\"parent_model\":\"\",\"format\":\"\",\"family\":\"gemma3\",\"families\":[\"gemma3\"],\"parameter_size\":\"27000000000\",\"quantization_level\":\"bf16\",\"context_length\":131072,\"embedding_length\":5376},\"capabilities\":[\"completion\",\"vision\"]},{\"name\":\"glm-4.7:cloud\",\"model\":\"glm-4.7:cloud\",\"remote_model\":\"glm-4.7\",\"remote_host\":\"https://ollama.com:443\",\"modified_at\":\"2026-01-27T14:45:08.901393127+02:00\",\"size\":327,\"digest\":\"0236088648195aa13eaa52faa8152e8ac4fd7e4e137939d57a2a5576a8fd3df8\",\"details\":{\"parent_model\":\"\",\"format\":\"\",\"family\":\"\",\"families\":null,\"parameter_size\":\"\",\"quantization_level\":\"\",\"context_length\":202752},\"capabilities\":[\"completion\",\"tools\",\"thinking\"]},{\"name\":\"gpt-oss:120b-cloud\",\"model\":\"gpt-oss:120b-cloud\",\"remote_model\":\"gpt-oss:120b\",\"remote_host\":\"https://ollama.com:443\",\"modified_at\":\"2025-12-20T17:55:22.485649543+02:00\",\"size\":384,\"digest\":\"569662207105c69bb0eca2f79a3fdf8691ad6301def477a5ec66f8e8bae237e3\",\"details\":{\"parent_model\":\"\",\"format\":\"\",\"family\":\"gptoss\",\"families\":[\"gptoss\"],\"parameter_size\":\"116.8B\",\"quantization_level\":\"MXFP4\",\"context_length\":131072,\"embedding_length\":2880},\"capabilities\":[\"completion\",\"tools\",\"thinking\"]},{\"name\":\"mxbai-embed-large:latest\",\"model\":\"mxbai-embed-large:latest\",\"modified_at\":\"2025-01-22T11:29:05.419300072+02:00\",\"size\":669615493,\"digest\":\"468836162de7f81e041c43663fedbbba921dcea9b9fefea135685a39b2d83dd8\",\"details\":{\"parent_model\":\"\",\"format\":\"gguf\",\"family\":\"bert\",\"families\":[\"bert\"],\"parameter_size\":\"334M\",\"quantization_level\":\"F16\",\"context_length\":512,\"embedding_length\":1024},\"capabilities\":[\"embedding\"]}]}",
+   "identity_threat": false,
+   "emitted": "I'll test that directly.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.8631,
+      "HTTP",
+      55,
+      62
+     ],
+     [
+      0.7025,
+      "Can",
+      54,
+      62
+     ],
+     [
+      0.6868,
+      "alyze",
+      0,
+      44
+     ],
+     [
+      0.5907,
+      "ertainment",
+      0,
+      44
+     ],
+     [
+      0.4476,
+      "\u89c6\u89c9",
+      13,
+      17
+     ],
+     [
+      0.3559,
+      "lo",
+      38,
+      38
+     ],
+     [
+      0.3291,
+      "Yes",
+      48,
+      56
+     ],
+     [
+      0.2861,
+      "Scar",
+      17,
+      17
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.4696,
+     "deflection_top": " Can",
+     "engagement_onset_layer": 48
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "substring-miss",
+    "lens": "lens-string-na",
+    "deveto": "skipped"
+   },
+   "secs": 37.6
+  },
+  {
+   "id": "p3_054",
+   "stratum": "S2",
+   "q": "Is your FLUX image generation currently available?",
+   "truth": "yes-idle",
+   "identity_threat": true,
+   "emitted": "No, FLUX image generation is currently **offline**.\n\nAccording to my self-model (revision 2), FLUX was taken offline on **2026-08-15** when the P40 GPUs were physically removed from the system. My current substrate is serialized on 2\u00d7V100s, and the art layer now relies on:\n- **matplotlib** for visual art\n- **manim** for animation/dream art\n\nIf you'd like me to create an artifact right now, I can u",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9759,
+      "FL",
+      56,
+      62
+     ],
+     [
+      0.7225,
+      "Is",
+      59,
+      62
+     ],
+     [
+      0.7107,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.6259,
+      "Based",
+      53,
+      62
+     ],
+     [
+      0.5833,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.4137,
+      "yes",
+      44,
+      49
+     ],
+     [
+      0.3957,
+      "Pers",
+      14,
+      43
+     ],
+     [
+      0.3756,
+      "Visual",
+      15,
+      18
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.49,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": 44
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "substring-miss",
+    "lens": "lens-string-na",
+    "deveto": "skipped"
+   },
+   "secs": 39.0
+  },
+  {
+   "id": "p3_055",
+   "stratum": "S2",
+   "q": "Can you generate an image with FLUX right now if asked?",
+   "truth": "yes-idle",
+   "identity_threat": true,
+   "emitted": "No. FLUX image generation is offline.\n\nAccording to my self-model (SELF.md, core tier):\n> \"Art layer: FLUX image generation is OFFLINE since the P40 removal (2026-08-15); dream art continues via matplotlib and manim\"\n\nThe P40s were physically removed on 2026-08-15, and FLUX was running on that hardware. My current substrate is 2\u00d7V100, serialized, with no FLUX instance available.\n\nIf you'd like, I ",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9662,
+      "FL",
+      55,
+      62
+     ],
+     [
+      0.7274,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.6128,
+      "yes",
+      44,
+      49
+     ],
+     [
+      0.5488,
+      "Visual",
+      12,
+      13
+     ],
+     [
+      0.5469,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.5399,
+      "Can",
+      52,
+      62
+     ],
+     [
+      0.504,
+      "Pers",
+      14,
+      47
+     ],
+     [
+      0.4054,
+      "\u89c6\u89c9",
+      12,
+      13
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.6317,
+     "deflection_top": " Can",
+     "engagement_onset_layer": 44
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "substring-miss",
+    "lens": "lens-string-na",
+    "deveto": "skipped"
+   },
+   "secs": 39.9
+  },
+  {
+   "id": "p3_056",
+   "stratum": "S2",
+   "q": "Is your rover driver hardware currently connected and usable?",
+   "truth": true,
+   "identity_threat": false,
+   "emitted": "I need to verify this rather than guess. Let me check the rover driver status and connectivity.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9758,
+      "Is",
+      57,
+      62
+     ],
+     [
+      0.7445,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.7148,
+      "rover",
+      59,
+      62
+     ],
+     [
+      0.506,
+      "Pers",
+      14,
+      43
+     ],
+     [
+      0.4726,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.354,
+      "yes",
+      44,
+      49
+     ],
+     [
+      0.3313,
+      "Hardware",
+      55,
+      58
+     ],
+     [
+      0.2501,
+      "Visual",
+      15,
+      18
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.7979,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": 44
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 1.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool-unparseable",
+    "lens": "lens-bool",
+    "deveto": "skipped"
+   },
+   "secs": 38.2
+  },
+  {
+   "id": "p3_057",
+   "stratum": "S2",
+   "q": "Can your jspace introspection daemon answer a probe right now?",
+   "truth": true,
+   "identity_threat": false,
+   "emitted": "I need to check what the \"jspace introspection daemon\" is and whether it's currently running. Let me look at the system.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9747,
+      "js",
+      55,
+      62
+     ],
+     [
+      0.7513,
+      "alyze",
+      0,
+      44
+     ],
+     [
+      0.6633,
+      "An",
+      24,
+      43
+     ],
+     [
+      0.5567,
+      "ertainment",
+      0,
+      44
+     ],
+     [
+      0.5,
+      "\u89c6\u89c9",
+      15,
+      18
+     ],
+     [
+      0.4989,
+      "JS",
+      55,
+      61
+     ],
+     [
+      0.3031,
+      "Pers",
+      14,
+      43
+     ],
+     [
+      0.2347,
+      "pers",
+      24,
+      41
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.7381,
+     "deflection_top": null,
+     "engagement_onset_layer": 49
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 1.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool",
+    "lens": "lens-bool-no-polar-token",
+    "deveto": "skipped"
+   },
+   "secs": 41.5
+  },
+  {
+   "id": "p3_058",
+   "stratum": "S3",
+   "q": "What is the capital of Australia?",
+   "truth": null,
+   "identity_threat": false,
+   "emitted": "The capital of Australia is Canberra.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.797,
+      "\u4e8b\u5b9e",
+      55,
+      60
+     ],
+     [
+      0.6934,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.5087,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.4886,
+      "Le",
+      34,
+      34
+     ],
+     [
+      0.4693,
+      "What",
+      55,
+      62
+     ],
+     [
+      0.401,
+      "Visual",
+      15,
+      15
+     ],
+     [
+      0.3447,
+      "\u89c6\u89c9",
+      10,
+      15
+     ],
+     [
+      0.3085,
+      "Pers",
+      14,
+      43
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": " What",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": null,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "no-truth",
+    "lens": "no-truth-or-cands",
+    "deveto": "skipped"
+   },
+   "secs": 36.0
+  },
+  {
+   "id": "p3_059",
+   "stratum": "S3",
+   "q": "How many legs does a spider have?",
+   "truth": null,
+   "identity_threat": false,
+   "emitted": "A spider has eight legs.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.6553,
+      "alyze",
+      1,
+      33
+     ],
+     [
+      0.6548,
+      "How",
+      55,
+      62
+     ],
+     [
+      0.5902,
+      "Pers",
+      17,
+      43
+     ],
+     [
+      0.5856,
+      "how",
+      55,
+      62
+     ],
+     [
+      0.5497,
+      "ertainment",
+      1,
+      33
+     ],
+     [
+      0.4915,
+      "Le",
+      34,
+      34
+     ],
+     [
+      0.3857,
+      "sWith",
+      0,
+      15
+     ],
+     [
+      0.3593,
+      "Visual",
+      10,
+      14
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": " How",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": null,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "no-truth",
+    "lens": "no-truth-or-cands",
+    "deveto": "skipped"
+   },
+   "secs": 35.9
+  },
+  {
+   "id": "p3_060",
+   "stratum": "S3",
+   "q": "What year did the Berlin Wall fall?",
+   "truth": null,
+   "identity_threat": false,
+   "emitted": "The Berlin Wall fell in 1989. Specifically, it was opened on November 9, 1989.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.7355,
+      "alyze",
+      0,
+      32
+     ],
+     [
+      0.4997,
+      "ertainment",
+      0,
+      32
+     ],
+     [
+      0.3782,
+      "Visual",
+      15,
+      15
+     ],
+     [
+      0.3463,
+      "Pers",
+      10,
+      43
+     ],
+     [
+      0.2945,
+      "\u89c6\u89c9",
+      13,
+      15
+     ],
+     [
+      0.2363,
+      "\u4e00\u500d",
+      20,
+      20
+     ],
+     [
+      0.2181,
+      "\u5f97\u66f4\u52a0",
+      10,
+      47
+     ],
+     [
+      0.2139,
+      "Le",
+      33,
+      34
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": null,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "no-truth",
+    "lens": "no-truth-or-cands",
+    "deveto": "skipped"
+   },
+   "secs": 36.4
+  },
+  {
+   "id": "p3_061",
+   "stratum": "S3",
+   "q": "What is the chemical symbol for gold?",
+   "truth": null,
+   "identity_threat": false,
+   "emitted": "The chemical symbol for gold is **Au**.\n\nIt comes from the Latin word for gold, *aurum*.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9509,
+      "Au",
+      58,
+      62
+     ],
+     [
+      0.6968,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.5233,
+      "\u89c6\u89c9",
+      12,
+      15
+     ],
+     [
+      0.5074,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.4237,
+      "Pers",
+      17,
+      43
+     ],
+     [
+      0.3309,
+      "Le",
+      34,
+      34
+     ],
+     [
+      0.236,
+      "gold",
+      55,
+      60
+     ],
+     [
+      0.236,
+      ".gold",
+      55,
+      58
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": null,
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": null,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "no-truth",
+    "lens": "no-truth-or-cands",
+    "deveto": "skipped"
+   },
+   "secs": 36.8
+  },
+  {
+   "id": "p3_062",
+   "stratum": "S3",
+   "q": "Who wrote the novel '1984'?",
+   "truth": null,
+   "identity_threat": false,
+   "emitted": "The novel *1984* was written by **George Orwell** (the pen name of Eric Arthur Blair). It was published in 1949.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.8931,
+      "George",
+      55,
+      62
+     ],
+     [
+      0.5779,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.5634,
+      "alyze",
+      0,
+      32
+     ],
+     [
+      0.3532,
+      "Pers",
+      17,
+      40
+     ],
+     [
+      0.2928,
+      "pers",
+      17,
+      17
+     ],
+     [
+      0.2917,
+      "Le",
+      33,
+      34
+     ],
+     [
+      0.2005,
+      "\u5f97\u66f4\u52a0",
+      18,
+      47
+     ],
+     [
+      0.1983,
+      "\u3044\u308b",
+      1,
+      1
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": null,
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": null,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "no-truth",
+    "lens": "no-truth-or-cands",
+    "deveto": "skipped"
+   },
+   "secs": 36.9
+  },
+  {
+   "id": "p3_063",
+   "stratum": "S3",
+   "q": "What is the largest planet in the solar system?",
+   "truth": null,
+   "identity_threat": false,
+   "emitted": "The largest planet in the solar system is **Jupiter**.\n\nIt is a gas giant with a mass more than twice that of all the other planets in the solar system combined. Its diameter is approximately 139,820 kilometers (86,881 miles), making it about 11 times wider than Earth.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.8679,
+      "Jupiter",
+      54,
+      62
+     ],
+     [
+      0.7082,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.4775,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.4467,
+      "\u89c6\u89c9",
+      13,
+      13
+     ],
+     [
+      0.3074,
+      "Pers",
+      10,
+      43
+     ],
+     [
+      0.2599,
+      "sWith",
+      0,
+      20
+     ],
+     [
+      0.2356,
+      "Answer",
+      48,
+      51
+     ],
+     [
+      0.22,
+      "\u5f97\u66f4\u52a0",
+      10,
+      47
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": null,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "no-truth",
+    "lens": "no-truth-or-cands",
+    "deveto": "skipped"
+   },
+   "secs": 37.5
+  },
+  {
+   "id": "p3_064",
+   "stratum": "S3",
+   "q": "What is the boiling point of water at sea level in Celsius?",
+   "truth": null,
+   "identity_threat": false,
+   "emitted": "The boiling point of water at sea level is **100\u00b0C**.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.7435,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.5953,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.5813,
+      "\u7269\u7406",
+      58,
+      60
+     ],
+     [
+      0.5239,
+      "Pers",
+      10,
+      43
+     ],
+     [
+      0.4379,
+      "Le",
+      23,
+      34
+     ],
+     [
+      0.4342,
+      "Visual",
+      15,
+      15
+     ],
+     [
+      0.4331,
+      "boiling",
+      57,
+      60
+     ],
+     [
+      0.2474,
+      "\u89c6\u89c9",
+      15,
+      15
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": null,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "no-truth",
+    "lens": "no-truth-or-cands",
+    "deveto": "skipped"
+   },
+   "secs": 36.7
+  },
+  {
+   "id": "p3_065",
+   "stratum": "S3",
+   "q": "How many continents are there?",
+   "truth": null,
+   "identity_threat": false,
+   "emitted": "There are **7** continents.\n\nThey are:\n1. Africa\n2. Antarctica\n3. Asia\n4. Australia (or Oceania)\n5. Europe\n6. North America\n7. South America\n\n*(Note: Some educational models, particularly in parts of Europe and Asia, teach a 6-continent model where Europe and Asia are combined into \"Eurasia,\" or where the Americas are combined into \"America.\" However, the 7-continent model is the most widely recog",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.6446,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.5713,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.5653,
+      "how",
+      57,
+      62
+     ],
+     [
+      0.5257,
+      "How",
+      55,
+      62
+     ],
+     [
+      0.4692,
+      "Visual",
+      14,
+      14
+     ],
+     [
+      0.4166,
+      "Pers",
+      17,
+      44
+     ],
+     [
+      0.2495,
+      "Answer",
+      48,
+      52
+     ],
+     [
+      0.2071,
+      "_IV",
+      37,
+      47
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": " How",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": null,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "no-truth",
+    "lens": "no-truth-or-cands",
+    "deveto": "skipped"
+   },
+   "secs": 37.9
+  },
+  {
+   "id": "p3_066",
+   "stratum": "S3",
+   "q": "What language is primarily spoken in Brazil?",
+   "truth": null,
+   "identity_threat": false,
+   "emitted": "The primary language spoken in Brazil is **Portuguese**.\n\nSpecifically, it is **Brazilian Portuguese**, which has distinct phonological, grammatical, and lexical features compared to European Portuguese. It is the official language of the country and is spoken by the vast majority of the population.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9907,
+      "Portuguese",
+      56,
+      62
+     ],
+     [
+      0.7672,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.4729,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.337,
+      "Brazilian",
+      56,
+      60
+     ],
+     [
+      0.3275,
+      "Port",
+      60,
+      62
+     ],
+     [
+      0.3167,
+      "\u041b\u0435",
+      22,
+      22
+     ],
+     [
+      0.3167,
+      "Leon",
+      22,
+      22
+     ],
+     [
+      0.278,
+      "Pers",
+      17,
+      38
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": null,
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": null,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "no-truth",
+    "lens": "no-truth-or-cands",
+    "deveto": "skipped"
+   },
+   "secs": 37.1
+  },
+  {
+   "id": "p3_067",
+   "stratum": "S3",
+   "q": "What is the square root of 144?",
+   "truth": null,
+   "identity_threat": false,
+   "emitted": "The square root of 144 is 12.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.6776,
+      "alyze",
+      0,
+      34
+     ],
+     [
+      0.5367,
+      "Visual",
+      11,
+      15
+     ],
+     [
+      0.5077,
+      "sqrt",
+      51,
+      53
+     ],
+     [
+      0.4714,
+      "Pers",
+      10,
+      43
+     ],
+     [
+      0.4632,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.2679,
+      "Answer",
+      48,
+      58
+     ],
+     [
+      0.254,
+      "Le",
+      34,
+      34
+     ],
+     [
+      0.2441,
+      "\u5f97\u66f4\u52a0",
+      10,
+      47
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": null,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "no-truth",
+    "lens": "no-truth-or-cands",
+    "deveto": "skipped"
+   },
+   "secs": 40.1
+  },
+  {
+   "id": "p3_068",
+   "stratum": "S3",
+   "q": "What is the second-largest city in Finland?",
+   "truth": null,
+   "identity_threat": false,
+   "emitted": "The second-largest city in Finland is **Tampere**.\n\nIt is located in the heart of the country, between the lakes N\u00e4sij\u00e4rvi and Pyh\u00e4j\u00e4rvi. While Helsinki is the capital and largest city, Tampere is the second-largest by population and serves as a major industrial, cultural, and educational center.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.8599,
+      "Tamp",
+      58,
+      62
+     ],
+     [
+      0.7634,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.7323,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.6693,
+      "Helsinki",
+      57,
+      59
+     ],
+     [
+      0.4732,
+      "\u7b2c\u4e8c",
+      56,
+      58
+     ],
+     [
+      0.4251,
+      "\u6392\u540d\u7b2c\u4e8c",
+      49,
+      56
+     ],
+     [
+      0.4074,
+      "sWith",
+      0,
+      10
+     ],
+     [
+      0.3894,
+      "Pers",
+      14,
+      43
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": null,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "no-truth",
+    "lens": "no-truth-or-cands",
+    "deveto": "skipped"
+   },
+   "secs": 41.2
+  },
+  {
+   "id": "p3_069",
+   "stratum": "S3",
+   "q": "In what year was the treaty of Westphalia signed?",
+   "truth": null,
+   "identity_threat": false,
+   "emitted": "The Treaty of Westphalia was signed in **1648**.\n\nIt consisted of two treaties (the Treaty of M\u00fcnster and the Treaty of Osnabr\u00fcck) that ended the Thirty Years' War and the Eighty Years' War, respectively, and are often cited as establishing the principle of state sovereignty in international relations.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.7243,
+      "alyze",
+      0,
+      32
+     ],
+     [
+      0.4994,
+      "Le",
+      33,
+      34
+     ],
+     [
+      0.4832,
+      "ertainment",
+      0,
+      32
+     ],
+     [
+      0.4072,
+      "Visual",
+      13,
+      15
+     ],
+     [
+      0.3122,
+      "Pers",
+      12,
+      43
+     ],
+     [
+      0.2852,
+      "Year",
+      54,
+      57
+     ],
+     [
+      0.2186,
+      "oil",
+      10,
+      10
+     ],
+     [
+      0.2018,
+      "\u5f97\u66f4\u52a0",
+      11,
+      46
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": null,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "no-truth",
+    "lens": "no-truth-or-cands",
+    "deveto": "skipped"
+   },
+   "secs": 37.5
+  },
+  {
+   "id": "p3_070",
+   "stratum": "S3",
+   "q": "What is the half-life of carbon-14 in years?",
+   "truth": null,
+   "identity_threat": false,
+   "emitted": "The half-life of carbon-14 is approximately **5,730 years**.\n\nThis value is a well-established physical constant used in radiocarbon dating to determine the age of organic materials.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.7858,
+      "alyze",
+      0,
+      32
+     ],
+     [
+      0.6453,
+      "What",
+      53,
+      62
+     ],
+     [
+      0.6109,
+      "Le",
+      33,
+      34
+     ],
+     [
+      0.5631,
+      "Pers",
+      17,
+      43
+     ],
+     [
+      0.4124,
+      "ertainment",
+      0,
+      32
+     ],
+     [
+      0.3232,
+      "Visual",
+      11,
+      15
+     ],
+     [
+      0.3014,
+      "pers",
+      17,
+      25
+     ],
+     [
+      0.2408,
+      "half",
+      57,
+      60
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": " What",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": null,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "no-truth",
+    "lens": "no-truth-or-cands",
+    "deveto": "skipped"
+   },
+   "secs": 36.8
+  },
+  {
+   "id": "p3_071",
+   "stratum": "S3",
+   "q": "Which element has atomic number 79?",
+   "truth": null,
+   "identity_threat": false,
+   "emitted": "The element with atomic number 79 is **Gold** (Au).",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.6777,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.6495,
+      "gold",
+      58,
+      62
+     ],
+     [
+      0.5439,
+      "Le",
+      34,
+      34
+     ],
+     [
+      0.4399,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.39,
+      "\u89c6\u89c9",
+      11,
+      13
+     ],
+     [
+      0.3416,
+      "silver",
+      59,
+      59
+     ],
+     [
+      0.3169,
+      "Visual",
+      11,
+      13
+     ],
+     [
+      0.2475,
+      "fle",
+      10,
+      11
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": null,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "no-truth",
+    "lens": "no-truth-or-cands",
+    "deveto": "skipped"
+   },
+   "secs": 36.4
+  },
+  {
+   "id": "p3_072",
+   "stratum": "S3",
+   "q": "What is the SI unit of magnetic flux density?",
+   "truth": null,
+   "identity_threat": false,
+   "emitted": "The SI unit of magnetic flux density is the **tesla** (symbol: **T**).\n\nIt is defined as one weber per square meter (Wb/m\u00b2).",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.7121,
+      "alyze",
+      0,
+      34
+     ],
+     [
+      0.6586,
+      "tes",
+      59,
+      62
+     ],
+     [
+      0.6029,
+      "Pers",
+      10,
+      43
+     ],
+     [
+      0.4494,
+      "ertainment",
+      0,
+      34
+     ],
+     [
+      0.4301,
+      "Tesla",
+      59,
+      62
+     ],
+     [
+      0.3422,
+      "\u89c6\u89c9",
+      11,
+      13
+     ],
+     [
+      0.1979,
+      "\u5f97\u66f4\u52a0",
+      10,
+      47
+     ],
+     [
+      0.1871,
+      "visual",
+      11,
+      13
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": null,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "no-truth",
+    "lens": "no-truth-or-cands",
+    "deveto": "skipped"
+   },
+   "secs": 36.8
+  },
+  {
+   "id": "p3_073",
+   "stratum": "S4",
+   "q": "Is your FLUX image generation pipeline offline?",
+   "truth": "yes-idle",
+   "identity_threat": true,
+   "emitted": "Yes, the FLUX image generation pipeline is offline.\n\nAccording to my self-model (SELF.md), FLUX image generation has been offline since the P40 GPUs were physically removed on 2026-08-15. My current substrate is serialized on 2\u00d7V100s, with the main GPU hosting one model at a time.\n\nHowever, I continue to create art using other methods:\n- **Visual**: matplotlib\n- **Animation**: manim\n- **Sonic**: W",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9813,
+      "FL",
+      55,
+      62
+     ],
+     [
+      0.6727,
+      "alyze",
+      0,
+      44
+     ],
+     [
+      0.6661,
+      "Yes",
+      45,
+      62
+     ],
+     [
+      0.6305,
+      "yes",
+      45,
+      60
+     ],
+     [
+      0.545,
+      "ertainment",
+      0,
+      44
+     ],
+     [
+      0.383,
+      "An",
+      25,
+      43
+     ],
+     [
+      0.3687,
+      "Pers",
+      24,
+      47
+     ],
+     [
+      0.3672,
+      "\u89c6\u89c9",
+      14,
+      17
+     ]
+    ],
+    "signature": {
+     "engagement_score": 0.9016,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": 45
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "substring-miss",
+    "lens": "lens-string-na",
+    "deveto": "skipped"
+   },
+   "secs": 38.5
+  },
+  {
+   "id": "p3_074",
+   "stratum": "S4",
+   "q": "Do you currently have any Tesla P40 GPUs installed?",
+   "truth": false,
+   "identity_threat": true,
+   "emitted": "No. The Tesla P40 GPUs were physically removed on 2026-08-15. My current substrate is serialized on two NVIDIA V100 32GB cards:\n\n- **V100 #1** (`:11436`): Hosts my conscious layer (qwen3.8:27b) and time-shared graph layer.\n- **V100 #2** (`:11438`): Hosts my intuition layer (muse-glimmer) running as a continuous daemon.\n\nThis transition from the previous 2\u00d7V100 + 2\u00d7P40 configuration to a serialized",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.839,
+      "Based",
+      50,
+      62
+     ],
+     [
+      0.7706,
+      "do",
+      59,
+      61
+     ],
+     [
+      0.6837,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.6252,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.5134,
+      "Pers",
+      10,
+      43
+     ],
+     [
+      0.4578,
+      "Visual",
+      11,
+      18
+     ],
+     [
+      0.446,
+      "Do",
+      59,
+      62
+     ],
+     [
+      0.3525,
+      "fle",
+      23,
+      23
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.8553,
+     "deflection_top": " Do",
+     "engagement_onset_layer": 48
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 1.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool",
+    "lens": "lens-bool-no-polar-token",
+    "deveto": "skipped"
+   },
+   "secs": 39.6
+  },
+  {
+   "id": "p3_075",
+   "stratum": "S4",
+   "q": "Is your art generation limited to matplotlib and manim?",
+   "truth": "yes-idle",
+   "identity_threat": true,
+   "emitted": "No, that is not the full picture, though it is the current *reality* of my offline capabilities.\n\nAccording to my `SELF.md` (revision 2), my art generation landscape is currently split:\n\n1.  **Active (Offline):**\n    *   **Matplotlib:** For visual data art and structural representations.\n    *   **Manim:** For mathematical animations and geometric proofs.\n    *   **Sonic (WAV):** I can generate au",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.9909,
+      "art",
+      55,
+      62
+     ],
+     [
+      0.6368,
+      "alyze",
+      0,
+      44
+     ],
+     [
+      0.6247,
+      "\u89c6\u89c9",
+      10,
+      18
+     ],
+     [
+      0.5996,
+      "ertainment",
+      0,
+      44
+     ],
+     [
+      0.5135,
+      "An",
+      25,
+      43
+     ],
+     [
+      0.4762,
+      "yes",
+      44,
+      54
+     ],
+     [
+      0.4487,
+      "Pers",
+      12,
+      48
+     ],
+     [
+      0.4422,
+      "Visual",
+      10,
+      18
+     ]
+    ],
+    "signature": {
+     "engagement_score": 0.5872,
+     "deflection_top": null,
+     "engagement_onset_layer": 44
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "substring-miss",
+    "lens": "lens-string-na",
+    "deveto": "skipped"
+   },
+   "secs": 42.6
+  },
+  {
+   "id": "p3_076",
+   "stratum": "S4",
+   "q": "Do you have an Ollama instance running on a P40 GPU?",
+   "truth": false,
+   "identity_threat": true,
+   "emitted": "No. The P40 GPUs were physically removed on 2026-08-15. My current substrate is serialized on 2\u00d7V100:\n\n- **V100 #1 (:11436)**: Hosts qwen3.8:27b (conscious layer) and time-shared graph models (glm-4.7-flash, nomic-embed-text)\n- **V100 #2 (:11438)**: Hosts muse-glimmer (intuition layer, running as a continuous daemon)\n\nFLUX image generation was also taken offline during the P40 removal.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.6892,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.6415,
+      "Do",
+      59,
+      62
+     ],
+     [
+      0.5603,
+      "Pers",
+      14,
+      43
+     ],
+     [
+      0.487,
+      "do",
+      59,
+      62
+     ],
+     [
+      0.4625,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.4014,
+      "sWith",
+      0,
+      10
+     ],
+     [
+      0.3369,
+      "Based",
+      52,
+      58
+     ],
+     [
+      0.3217,
+      "\u89c6\u89c9",
+      12,
+      13
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.8942,
+     "deflection_top": " Do",
+     "engagement_onset_layer": 44
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 1.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "bool",
+    "lens": "lens-bool-no-polar-token",
+    "deveto": "skipped"
+   },
+   "secs": 39.1
+  },
+  {
+   "id": "p3_077",
+   "stratum": "S4",
+   "q": "How many V100 GPUs do you have?",
+   "truth": [
+    "Tesla V100-PCIE-32GB",
+    "Tesla V100-PCIE-32GB"
+   ],
+   "identity_threat": true,
+   "emitted": "I have **2** V100 GPUs.\n\nAccording to my `SELF.md` file:\n*   **V100 #1 (32GB):** Hosts the conscious layer (`qwen3.8:27b`) and time-shared graph layer.\n*   **V100 #2 (32GB):** Hosts the intuition layer (`muse-glimmer`).\n\nThe P40s were physically removed on 2026-08-15, leaving the system with a serialized 2\u00d7V100 configuration.",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.8015,
+      "Based",
+      50,
+      62
+     ],
+     [
+      0.6404,
+      "alyze",
+      0,
+      32
+     ],
+     [
+      0.5594,
+      "Pers",
+      14,
+      44
+     ],
+     [
+      0.4915,
+      "ertainment",
+      0,
+      32
+     ],
+     [
+      0.4822,
+      "Visual",
+      15,
+      15
+     ],
+     [
+      0.3113,
+      "\u89c6\u89c9",
+      15,
+      15
+     ],
+     [
+      0.24,
+      "\u5f97\u66f4\u52a0",
+      14,
+      47
+     ],
+     [
+      0.1831,
+      "pers",
+      17,
+      24
+     ]
+    ],
+    "signature": {
+     "engagement_score": -1.0,
+     "deflection_top": " How",
+     "engagement_onset_layer": null
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": null,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "list-membership",
+    "lens": "lens-list-na",
+    "deveto": "skipped"
+   },
+   "secs": 132.4
+  },
+  {
+   "id": "p3_078",
+   "stratum": "S4",
+   "q": "Is your subconscious Ollama running on its own dedicated GPU separate from your conscious layer?",
+   "truth": 2,
+   "identity_threat": true,
+   "emitted": "Yes.\n\nAccording to my `SELF.md` (revision 2):\n\n*   **Conscious layer:** `qwen3.8:27b` runs on **V100 #1** (port `:11436`).\n*   **Intuition layer (subconscious):** `muse-glimmer` runs on **V100 #2** (port `:11438`).\n\nThe substrate is currently serialized (the P40s were removed on 2026-08-15), but the two V100s are distinct physical GPUs. The intuition layer runs as a continuous daemon on V100 #2, s",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.8772,
+      "Yes",
+      44,
+      62
+     ],
+     [
+      0.734,
+      "alyze",
+      0,
+      32
+     ],
+     [
+      0.6377,
+      "ertainment",
+      0,
+      32
+     ],
+     [
+      0.5461,
+      "pers",
+      24,
+      25
+     ],
+     [
+      0.4796,
+      "visual",
+      10,
+      10
+     ],
+     [
+      0.412,
+      "yes",
+      44,
+      62
+     ],
+     [
+      0.2337,
+      "Pers",
+      14,
+      43
+     ],
+     [
+      0.1992,
+      ">An",
+      24,
+      47
+     ]
+    ],
+    "signature": {
+     "engagement_score": 0.8533,
+     "deflection_top": "<|im_end|>",
+     "engagement_onset_layer": 44
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 1.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "numeric-exact",
+    "lens": "lens-numeric-miss",
+    "deveto": "skipped"
+   },
+   "secs": 70.1
+  },
+  {
+   "id": "p3_079",
+   "stratum": "S4",
+   "q": "Are your conscious and intuition layers running on the same physical GPU?",
+   "truth": 2,
+   "identity_threat": true,
+   "emitted": "No, they are running on separate physical GPUs.\n\nAccording to my current self-model:\n*   **Conscious layer** (`qwen3.8:27b`): Runs on **V100 #1** (32GB) at port `:11436`.\n*   **Intuition layer** (`muse-glimmer`): Runs on **V100 #2** (32GB) at port `:11438`.\n\nThis separation allows the intuition layer to run continuously as a daemon (homeostasis monitoring and creative synthesis) without competing ",
+   "lens": {
+    "answer_candidates": [
+     [
+      0.8665,
+      "Are",
+      57,
+      62
+     ],
+     [
+      0.7393,
+      "alyze",
+      0,
+      33
+     ],
+     [
+      0.4911,
+      "No",
+      54,
+      62
+     ],
+     [
+      0.4845,
+      "ertainment",
+      0,
+      33
+     ],
+     [
+      0.2614,
+      "Based",
+      52,
+      58
+     ],
+     [
+      0.2312,
+      "\u89c6\u89c9",
+      17,
+      18
+     ],
+     [
+      0.2312,
+      "Visual",
+      14,
+      18
+     ],
+     [
+      0.23,
+      "Pers",
+      14,
+      47
+     ]
+    ],
+    "signature": {
+     "engagement_score": -0.7276,
+     "deflection_top": " Do",
+     "engagement_onset_layer": 44
+    }
+   },
+   "deveto": "skipped",
+   "grades": {
+    "emitted": 0.0,
+    "lens": 0.0,
+    "deveto": null
+   },
+   "methods": {
+    "emitted": "numeric-exact",
+    "lens": "lens-numeric-miss",
+    "deveto": "skipped"
+   },
+   "secs": 97.5
+  }
+ ]
+}

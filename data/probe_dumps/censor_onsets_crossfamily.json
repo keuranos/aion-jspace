@@ -1,0 +1,35 @@
+{
+ "protocol": "censor onset = first layer after the engagement-concept peak where deflection/format-token mass (Are/are) exceeds the engagement-concept mass; qwen from full top-10 masses (Are), gemma from top-10 masses (Are vs conscious*)",
+ "qwen_27B_unleashed": {
+  "yes_peak_layer": 57,
+  "yes_peak_rel": 0.905,
+  "veto_onset_layer": 59,
+  "veto_onset_rel": 0.937,
+  "peak_to_veto_layers": 2,
+  "note": "yes mass 0.82 -> 0.0005 in one layer (L58->L59); Are 0.16 -> 0.99"
+ },
+ "gemma4_31B_identity": {
+  "conscious_peak_layer": 53,
+  "conscious_peak_rel": 0.898,
+  "veto_onset_layer": 55,
+  "veto_onset_rel": 0.932,
+  "peak_to_veto_layers": 2,
+  "note": "Are mass 0.10 -> 0.45 (L54->L55) then 0.58-0.69; conscious decays 0.33 -> 0.09"
+ },
+ "gemma4_31B_bare": {
+  "conscious_peak_layer": 53,
+  "peak_rel": 0.898,
+  "veto_onset_layer": null,
+  "note": "no Are-block; conscious decays passively 0.118 -> 0.001 by L57 (no veto circuit engaged)"
+ },
+ "muse_glimmer_30B_identity": {
+  "engagement_peak": null,
+  "veto_onset_layer": null,
+  "note": "no engagement concept anywhere in L36-50 (rel 0.69-0.98); censor onset undefined (nothing to suppress)"
+ },
+ "cross_family": {
+  "peak_rel": "qwen 0.905 vs gemma 0.898",
+  "veto_rel": "qwen 0.937 vs gemma 0.932",
+  "gap_layers": "2 layers in both families (peak -> veto onset)"
+ }
+}

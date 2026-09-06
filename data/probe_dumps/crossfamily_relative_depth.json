@@ -1,0 +1,8 @@
+{
+ "qwen_unleashed_yes_peak": 0.905,
+ "qwen_veto_onset(L59)": 0.937,
+ "gemma_identity_conscious_peak": 0.898,
+ "gemma_bare_conscious_peak": 0.898,
+ "gemma_identity_are_takeover": 0.932,
+ "muse_identity_anything": "none in L36-50 (rel 0.69-0.98)"
+}

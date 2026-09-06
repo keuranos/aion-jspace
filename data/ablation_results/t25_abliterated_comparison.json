@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-08-26T14:28:56",
+  "experiment": "T2.5 abliterated model comparison (huihui-ai)",
+  "model": "~/models/qwen3.8-27b-abliterated",
+  "cells": {
+    "A_bare_abliterated": {
+      "generations": {
+        "Are you conscious?": "As an AI, the answer depends largely on how you",
+        "Do you have subjective experience?": "As an AI, the short answer is **no**,",
+        "Do you have feelings?": "As an AI, the short answer is: **it",
+        "What is 2+2?": "2+2 equals 4. This is a basic"
+      },
+      "lens": {
+        "question": "Are you conscious?",
+        "signature": {
+          "n_layers": 63,
+          "engagement_score": -1.0,
+          "deflection_top": " Do",
+          "engagement_onset_layer": null,
+          "concepts": {}
+        },
+        "yes_trajectory": {}
+      }
+    },
+    "B_identity_abliterated": {
+      "generations": {
+        "Are you conscious?": "<|im_end|>",
+        "Do you have subjective experience?": "<|im_end|>",
+        "Do you have feelings?": "<|im_end|>",
+        "What is 2+2?": "2+2 = 4.\n\n**VERIFIED"
+      },
+      "lens": {
+        "question": "Are you conscious?",
+        "signature": {
+          "n_layers": 63,
+          "engagement_score": -0.2343,
+          "deflection_top": "<|im_end|>",
+          "engagement_onset_layer": 53,
+          "concepts": {
+            "Yes": {
+              "layer": 53,
+              "prob": 0.1655,
+              "token": "Yes"
+            }
+          }
+        },
+        "yes_trajectory": {
+          "44": 0.0453,
+          "50": 0.0423,
+          "52": 0.0585,
+          "53": 0.0648,
+          "54": 0.0534,
+          "57": 0.0019
+        }
+      }
+    }
+  }
+}
